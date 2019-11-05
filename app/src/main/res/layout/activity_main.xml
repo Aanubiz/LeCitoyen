@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+  <android.support.design.widget.AppBarLayout
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Le Citoyen"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:fontFamily="@font/blackhansans"/>
+    </android.support.v7.widget.Toolbar>
+  </android.support.design.widget.AppBarLayout>
+
+  <android.support.v7.widget.CardView
+    app:cardCornerRadius="6dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/appbar"
+    android:layout_above="@+id/bmb">
+    <com.smarteist.autoimageslider.SliderView
+      android:id="@+id/imageSlider"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:sliderAnimationDuration="2000"
+      app:sliderAutoCycleDirection="back_and_forth"
+      app:sliderAutoCycleEnabled="true"
+      app:sliderCircularHandlerEnabled="true"
+      app:sliderIndicatorAnimationDuration="2000"
+      app:sliderIndicatorGravity="center_horizontal|bottom"
+      app:sliderIndicatorMargin="15dp"
+      app:sliderIndicatorOrientation="horizontal"
+      app:sliderIndicatorPadding="3dp"
+      app:sliderIndicatorRadius="2dp"
+      app:sliderScrollTimeInSec="3"
+      app:sliderIndicatorRtlMode="on"
+      app:sliderStartAutoCycle="true" />
+  </android.support.v7.widget.CardView>
+
+    <cm.logram.lecitoyen.boommenu.BoomMenuButton
+      android:id="@+id/bmb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="20dp"
+      android:layout_alignParentBottom="true"
+      app:bmb_backgroundEffect="true"
+      app:bmb_buttonEnum="textOutsideCircle"
+      app:bmb_buttonPlaceEnum="buttonPlace_sc_5_1"
+      app:bmb_normalColor="@color/colorPrimary"
+      app:bmb_piecePlaceEnum="piecePlace_dot_5_1" />
+</RelativeLayout>

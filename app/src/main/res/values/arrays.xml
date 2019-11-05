@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="colors">
+    <item>@color/material_light_blue_500</item>
+    <item>@color/material_brown_500</item>
+    <item>@color/material_yellow_500</item>
+    <item>@color/material_lime_500</item>
+    <item>@color/material_purple_500</item>
+    <item>@color/material_cyan_500</item>
+    <item>@color/material_blue_grey_500</item>
+    <item>@color/material_blue_400</item>
+    <item>@color/DarkMagenta</item>
+    <item>@color/win8_magenta</item>
+    <item>@color/Moccasin</item>
+    <item>@color/holo_red_light</item>
+    <item>@color/red</item>
+    <item>@color/DarkRed</item>
+    <item>@color/DarkBlue</item>
+    <item>@color/Aqua</item>
+    <item>@color/Sienna</item>
+    <item>@color/IndianRed</item>
+    <item>@color/Violet</item>
+    <item>@color/material_amber_A700</item>
+  </array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="cm.logram.lecitoyen">
+
+
+  <application
+    android:allowBackup="true"
+    android:icon="@drawable/blazon"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/blazon"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:largeHeap="true"
+    tools:replace="android:icon">
+    <activity
+      android:name=".mains.Main1Activity"
+      android:noHistory="true">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".MainActivity"
+      android:noHistory="true"/>
+    <activity android:name=".reglesDeDroits.CodeDeProcedurePenale" />
+    <activity android:name=".Quiz" />
+    <activity android:name=".patrimoines_culturel.PatrimoineCulturel" />
+    <activity android:name=".reglesDeDroits.CodeDeJusticeMilitaire" />
+    <activity android:name=".les_personnages.AndreMarieMbida" />
+    <activity android:name=".les_personnages.AhidjoAhmadou" />
+    <activity android:name=".les_personnages.DoualaMagaBell" />
+    <activity android:name=".les_personnages.MartinPaulSamba" />
+    <activity android:name=".les_personnages.RubenUmNyobe" />
+    <activity android:name=".les_personnages.FelixMoumie" />
+    <activity android:name=".favoris.FavorisCodeDeJusticeMilitaire" />
+    <activity
+      android:name=".favoris.FavorisCodeDeProcedurePenale"
+      android:noHistory="true"/>
+    <activity android:name=".reglesDeDroits.CodeDuTravail" />
+    <activity android:name=".favoris.FavorisCodeDuTravail" />
+    <activity android:name=".reglesDeDroits.CodeElectoral" />
+    <activity android:name=".favoris.FavorisCodeElectoral" />
+    <activity android:name=".reglesDeDroits.CodePenale" />
+    <activity android:name=".favoris.FavorisCodePenale" />
+    <activity android:name=".favoris.FavorisCodeRelatifAuxArmes" />
+    <activity android:name=".reglesDeDroits.CodeRelatifAuxArmes" />
+    <activity android:name=".histoireDuCameroun.CamerounPrecoloniale" />
+    <activity android:name=".histoireDuCameroun.CamerounColoniale" />
+    <activity android:name=".Gallerie" />
+    <activity android:name=".a_propos.APropos" />
+    <activity android:name=".a_propos.A_Propos" />
+    <activity android:name=".a_propos.Contacts" />
+    <activity android:name=".a_propos.Faq" />
+    <activity
+      android:name=".reglesDeDroits.RegleDeDroit"
+      android:noHistory="true"/>
+    <activity android:name=".les_personnages.PersonnagesHistorique" />
+    <activity android:name=".histoireDuCameroun.HistoireDuCameroun" />
+
+    <activity android:name=".Details_activity" />
+  </application>
+</manifest>

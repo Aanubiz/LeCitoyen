@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="nous"><![CDATA[<b><font color="#0099CC">LOGRAM TECHNOLOGIES</font></b> est une entreprise Camerounaise qui s\'est
+   fixé pour objectif de developper des solutions numériques adaptées aux besoins de l\'Afrique;<br/><br/>
+   \tVous pouvez nous suivre et nous soutenir a partir de nos differentes page sur les réseau sociaux!
+   Vous pouvez aussi nous contacter par e-mail, par Appels ou par SMS pour toute remarques ou suggetion.
+   Et n\'hesitez pas a nous attribuer une note afin d\'évaluer notre travail et nous permettre d\'améliorer
+   nos produits.<br/><br/>
+  ]]>
+  </string>
+  <string name="contact">Veuillez s\'il vous plaît nous contacter sur les differentes plates formes
+    pour toutes remarque ou suggetion. Nous comptons sur vos commentaires pour rendre notre
+    application de plus en plus utile pour votre quotidien.
+  </string>
+</resources>

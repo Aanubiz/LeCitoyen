@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!--Code de justice militaire-->
+  <string name="titre1cjm">TITRE I\n DISPOSITIONS GENERALES</string>
+  <string name="titre2cjm">TITRE II\n DE L\'ORGANISATION, DE LA COMPETENCE ET DE LA PROCEDURE EN MATIERE DE JUSTICE MILITAIRE\n\n CHAPITRE I\n DE L\'ORGANISATION ET DE LA COMPÉTENCE\n\n SECTION I\nDU RESSORT, DU SIEGE ET DE LA COMPOSITION</string>
+  <string name="titre3cjm">SECTION II\n DE LA COMPETENCE</string>
+  <string name="titre4cjm">CHAPITRE II\n DE LA PROCEDURE APPLICABLE\n\n SECTION 1\n DE LA POURSUITE\n\n PARAGRAPHE I\n DE LA POLICE JUDICIAIRE EN MATIERE DE JUSTICE MILITAIRE</string>
+  <string name="titre5cjm">PARAGRAPHE II\n DE LA MISE EN MOUVEMENT ET DE L’EXERCICE DE L\'ACTION PUBLIQUE</string>
+  <string name="titre6cjm">SECTION II\n DE L\'INFORMATION JUDICIAIRE</string>
+  <string name="titre7cjm">SECTION III\n DE LA PROCEDURE DEVANT LA JURIDICTION DE JUGEMENT</string>
+  <string name="titre8cjm">CHAPITRE III\n DES DISPOSITIONS PARTICULIERES\n\n SECTION I\n DE LA PROCEDURE EN TEMPS DE GUERRE</string>
+  <string name="titre9cjm">SECTION II\nDU PRIVILEGE DE JURIDICTION</string>
+  <string name="titre10cjm">TITRE III\n DES INFRACTIONS MILITAIRES\n\n CHAPITRE I\n DISPOSITIONS GENERALES</string>
+  <string name="titre11cjm">CHAPITRE II\n DES INFRACTION A L’OBLIGATION D’ASTREINTE</string>
+  <string name="titre12cjm">CHAPITRE III\n DES INSUBORDINATIONS ET OUTRAGES</string>
+  <string name="titre13cjm">CHAPITRE IV\n DES VOIES DE FAIT, ABUS D’AUTORITE ET AUTRES AGRESSIONS</string>
+  <string name="titre14cjm">CHAPITRE V\n DES ATTEINTES AUX BIENS MILITAIRES</string>
+  <string name="titre15cjm">CHAPITRE VI\n DES INFRACTIONS CONTRE L’HONHEUR</string>
+  <string name="titre16cjm">TITRE IV\n DISPOSITIONS DIVERSES TRANSITOIRES ET FINALES</string>
+
+
+  <string name="article1cjm">
+    La présente loi porte Code de justice militaire.\n\n
+    A ce titre, elle fixe l\'organisation judiciaire militaire, les règles de procédure applicables devant les Tribunaux Militaires et les infractions militaires.\n
+  </string>
+  <string name="article2cjm">
+    \t(1) Les Tribunaux Militaires sont des juridictions à compétence spéciale.\n\n
+    \t(2) L\'organisation administrative des Tribunaux Militaires fait l\'objet d\'un texte particulier.\n
+  </string>
+  <string name="article3cjm">
+    \t(1) Il est créé un Tribunal Militaire par Région.\n\n
+    \t(2) Toutefois, en fonction des nécessités de service, le Président de la République peut, par voie d\'ordonnance, créer plus d\'un Tribunal Militaire au sein d\'une même Région ou étendre le ressort d\'un Tribunal Militaire à plusieurs Régions.\n\n
+    \t(3) Le Tribunal Militaire siège au chef-lieu de la Région. Toutefois, il peut tenir des audiences hors de son siège. Ces audiences sont appelées audiences foraines.\n\n
+  </string>
+  <string name="article4cjm">
+    \t(1) En cas dé circonstances exceptionnelles telles que prévues à l\'article 9 de la Constitution, de menace grave à l\'ordre public, à la sécurité de l\'Etat ou de terrorisme, le Tribunal Militaire de Yaoundé peut, exercer ses attributions sur l\'ensemble du territoire national, nonobstant les dispositions de l\’article 3 ci-dessus.\n\n
+    \t(2) Le Tribunal Militaire de Yaoundé est également compétent pour connaître des infractions de toute nature commises par des militaires en mission ou en opération hors du territoire national.\n\n
+  </string>
+  <string name="article5cjm">
+    \t(1) Le Tribunal Militaire comprend:\n
+    \t\t- Un Président;\n
+    \t\t- Un où plusieurs Vice-présidents;\n
+    \t\t- Deux Assesseurs titulaires et des Assesseurs suppléants;\n
+    \t\t- Un Greffier en chef;\n
+    \t\t- Un où plusieurs Greffiers.\n\n
+    \tb) A l’Instruction:\n
+    \t\t• Un où plusieurs Juges d\'instruction;\n\n
+    \t\t• Un où plusieurs Greffiers d’Instruction.\n\n
+    \tc) Au Parquet:\n\n
+    \t\t• Un Commissaire du Gouvernement;\n\n
+    \t\t• Un où plusieurs Substituts du Commissaire du Gouvernement;\n\n
+    \t\t• Un où plusieurs Greffiers.\n\n
+    \t(2) Le Président, les Vice-présidents, les Juges d\'instruction, le Commissaire du Gouvernement et les Substituts du Commissaire du Gouvernement sont, soit des Magistrats Militaires, soit des Magistrats Civils. Ils sont nommés par décret du Président de la République.\n\n
+    \t(3) Les Magistrats Civils, membres du Tribunal Militaire, sont choisis parmi ceux en poste dans le ressort du Tribunal Militaire où ils sont nommés. Ils doivent être au moins du 2ème grade une pour ceux devant être nommés au siège.\n\n
+    \t(4) Le Président du Tribunal Militaire et le Commissaire du . Gouvernement près le Tribunal Militaire sont installés en audience solennelle.\n
+  </string>
+  <string name="article6cjm">
+    Nonobstant les dispositions de l\'article 5 alinéa 2 ci- dessus, le Ministre chargé de la justice militaire peut, pour des nécessités de service, détacher temporairement un Magistrat Militaire du Parquet dans un autre Parquet. Ce, détachement ne peu excéder six (06) mois.\n
+  </string>
+  <string name="article7cjm">
+    \t(1) En matière criminelle:\n
+    \t\ta) Toute affaire relevant de la compétence du Tribunal Militaire est. jugée en collégialité;\n\n
+    \t\tb) La collégialité est composée d\'un Magistrat-Président et de deux (2) Assesseurs, ou de trois (03) Magistrats;\n\n
+    \t(2) En matière correctionnelle ou de simple police:\n\n
+    \t\ta) Les affaires sont jugées par un seul Magistrat;\n\n
+    \t\tb) Le Tribunal peut, nonobstant les dispositions du paragraphe (a) ci- dessus, par jugement avant dire droit rendu d\'office ou sur réquisitions du Commissaire du Gouvernement ou à la demande d\'une partie, décider qu\'une affaire sera jugée en collégialité.\n\n
+    \t(3) Dans tous les cas, lorsque la formation collégiale du Tribunal Militaire est présidée par un Magistrat Civil, les deux (02) Assesseurs sont obligatoirement des membres des Forces de Défense.\n
+  </string>
+  <string name="article8cjm">
+     Le Tribunal Militaire est seul compétent pour connaître:\n\n
+    \ta- Des infractions militaires et des crimes de guerre;\ n\n
+    \tb- Des crimes contre l\'humanité et du crime de génocide;\n\n
+    \tc- Des infractions relatives aux actes de terrorisme et à la sûreté de l\'Etat;\n\n
+    \td- Des infractions de piraterie et actes illicites contre la sûreté de la navigation maritime et des plates-formes;\n\n
+    \te- Des infractions de toute nature commises par des militaires ou par le personnel civil en service dans les Forces de Défense, avec ou sans coauteurs ou complices civils, soit à l\'intérieur d’un établissement militaire, Soit dans l\'exercice de leurs fonctions;\n\n
+    \tf- Des infractions à la législation sur les armes de 1er, 2ème 3ème à 4ème catégorie telles que spécifiées dans la loi portant régime général des armes et munitions au Cameroun;\n\n
+    \tg- Des infractions de toute nature commises à l\'aide d\'armes des catégories visées au paragraphe f ci-dessus;\n\n
+    \th- Du vol avec port d\'arme à feu;\n\n
+    \ti- Des infractions de toute nature où se trouve impliqué un militaire ou assimilé, perpétrées en temps de guerre ou dans une région soumise à l\'état d\'urgence ou à l’état d\'exception;\n\n
+    \tj- Des infractions de toute nature commises par des personnes civiles dans un établissement militaire et ayant porté atteinte soit aux équipements ou installations militaires, soit à l\'intégrité physique d’un militaire, ou ayant troublé le fonctionnement du service;\n\n
+    \tk- Des infractions relatives à l\'achat, l\'importation, la vente, la confection, la distribution, le port ou la détention d\'effets ou d\'insignes militaires tels que définis par la règlementation en vigueur;\n\n
+    \tl- De toutes les infractions connexes à celles visées ci-dessus.\n
+  </string>
+  <string name="article9cjm">
+    Les mineurs de dix-huit (18) ans, auteurs, coauteurs ou complices des infractions visées à l’article 8 ci-dessus, sont justiciables des juridictions compétentes en matière de délinquance juvénile. Dans ce cas, le dossier est transmis au parquet compétent par le Commissaire du Gouvernement. après disjonction des procédures, le cas échéant.\n
+  </string>
+  <string name="article10cjm">
+    Les étrangers, auteurs, coauteurs ou complices des faits visés à l\'article 8 ci-dessus sont justiciables du Tribunal Militaire sous réserve des Conventions internationales prévoyant un privilège de juridiction ou des règles relatives aux immunités diplomatiques.\n
+  </string>
+  <string name="article11cjm">
+    \t(1) Les infractions visées aux paragraphes a, e, i, j et k de l’article 8 de la présente loi sont constatées sur procès-verbal par les Officiers de Police Judiciaire militaires exclusivement. Les infractions visées aux paragraphes b, c, d,f,g,hetl Sont constatées sur procès-verbal par les Officiers de Police Judiciaire civils ou militaires.\n\n
+    Dans tous les cas, les enquêtes sont effectuées par les Officiers de Police Judiciaire conformément aux règles du Code de Procédure Pénale.\n\n
+    \t(2) Sauf disposition spéciale contraire, les Officiers de Police Judiciaire sont tenus de transmettre, sans délai, les originaux des procès-verbaux d\'enquête de police au Commissaire du Gouvernement et d\'en adresser copie au Ministre chargé de la justice militaire.\n
+  </string>
+  <string name="article12cjm">
+    \t(1) Dans le cadre des procédures concernant les infractions visées à l’article 8 de la présente loi:\n
+    \t\ta) L\'enquête de police est diligentée sous le contrôle et la direction du Commissaire du Gouvernement;\n\n
+    \t\tb) Les Officiers de Police Judiciaire ne peuvent procéder à des visites domiciliaires, perquisitions et saisies que conformément aux règles du Code de Procédure Pénale. Toutefois, en cas d\'urgence, de risque de disparition des preuves matérielles de l\'infraction où de menace contre l\'intégrité. physique ou la vie des tiers ou des Officiers de Police Judiciaire, ceux-ci peuvent procéder, à tout moment, à des visites domiciliaires, perquisitions et saisies sur ordre du Commissaire du Gouvernement donné par tout moyen laissant trace écrite;\n\n
+    \t\tc) Le délai de la garde à vue est de quarante-huit (48) heures renouvelable une (01) fois;\n\n
+    \t\td) À l\'expiration du délai fixé au paragraphe c ci-dessus, la garde à vue peut, Sur autorisation écrite du Commissaire du Gouvernement, être prorogée de deux (02) autres périodes de quarante-huit (48) heures chacune;\n\n
+    \t\te) Les délais de distance prévus par le Code de Procédure Pénale sont applicables;\n\n
+    \t\tf) Mention de chaque prorogation est faite dans le procès-verbal;\n\n
+    \t\tg) Les Officiers de Police Judiciaire sont tenus d\'adresser quotidiennement, au Commissaire du Gouvernement, un état des personnes gardées à vue et d\'en adresser copie au Ministre chargé de la justice militaire.\n\n
+    \t(2) L\'inobservation des formalités prévues aux paragraphes b, c, d,fetg de l\'alinéa 1 ci-dessus peut donner lieu à des sanctions disciplinaires contre l’auteur, Sans préjudice des poursuites pénales et actions en réparation.\n
+  </string>
+  <string name="article13cjm">
+    \t(1) L\'action publique devant le Tribunal Militaire est mise en mouvement et exercée par le Commissaire du Gouvernement dans les conditions prévues par le Code de Procédure Pénale.\n\n
+    \t(2) Pour les affaires signalées, le Commissaire du Gouvernement est tenu d\'en référer au Ministre chargé de la justice militaire.\n\n
+    \t(3) Le Ministre chargé de la justice militaire détermine, en tant que de besoin, les affaires visées à l\'alinéa 2 ci-dessus.\n\n
+    \t(4) Sur prescription du Président de la République, le Ministre chargé de la justice militaire peut arrêter à tout moment, avant le prononcé du jugement, toute poursuite pénale devant le Tribunal Militaire.\n\n
+    \t(5) La constitution de partie civile se fait conformément aux règles du Code de Procédure Pénale.\n
+  </string>
+  <string name="article14cjm">
+    \t(1) Le Commissaire du Gouvernement peut requérir par écrit, puis oralement, après autorisation du Ministre chargé de la justice militaire, l\'arrêt des poursuites à tout stade de la procédure et avant l\'intervention d’une décision au fond, lorsque ces poursuites sont de nature à compromettre l\'intérêt social où la paix publique.\n\n
+    \t(2) Dans les cas visés à l\'article 13 alinéa 4 et à l\'alinéa 1 ci-dessus, le Juge d\'instruction où la juridiction de jugement constate son dessaisissement sur l\'action publique et donne mainlevée des mandats éventuellement décernés contre le bénéficiaire de l\'arrêt des poursuites. II poursuit l\'examen de l\'affaire sur l\'action civile.\n\n
+    \t(3) L\'arrêt des poursuites n\'empêche pas leur reprise lorsque celles- ci s\'avèrent nécessaires ou lorsque surviennent des éléments nouveaux tels que définis par le Code de Procédure Pénale.\n
+  </string>
+  <string name="article15cjm" tools:ignore="Typos">
+    \t(1)\n
+    \t\ta) L\'information judiciaire est conduite conformément aux règles du Code de Procédure Pénale, sauf dispositions contraires du présent Code. Toutefois, la plainte avec constitution de partie civile n\'est pas recevable devant le Juge d\'instruction.\n\n
+    \t\tb) Nonobstant les dispositions du Code de Procédure Pénale relatives aux conditions de la mise en détention provisoire, le Juge d\'instruction ou du jugement peut placer sous mandat de détention provisoire tout militaire qui commet une infraction constituant une atteinte grave à la discipline militaire, même si ladite infraction n\'est pas un crime.\n\n
+    \t(2) Dès que le Juge d\'instruction estime que l\'information judiciaire est achevée, il communique le dossier au Commissaire du Gouvernement pour son Téquisitoire définitif. Ce dernier doit retourner le dossier au Juge d\'instruction dans un délai de cinq (05) jours.\n\n
+    \t(3) Si le Juge d\'instruction estime que des charges sont réunies contre l\'inculpé, il le renvoie devant le Tribunal Militaire. En l\'absence de charges, d\'insuffisance de charges, ou si l’auteur n\'est pas identifié, il rend une ordonnance de non-lieu.\n\n
+    \t(4) Dans tous les cas, l\'ordonnance de clôture est notifiée aux parties. Le Commissaire du Gouvernement en transmet copie au Ministre chargé de la justice militaire.\n\n
+    \t(5) S\'il résulte de l\'information judiciaire que l\'inculpé a des co-auteurs ou complices justiciables du Tribunal Militaire, où qu\'il peut être poursuivi pour des faits autres que ceux visés dans l\'acte de Saisine, le Juge d\'instruction communique le dossier au Commissaire du Gouvernement.\n\n
+    \t(6) Lorsque le Juge d\'instruction se déclare incompétent, il donne main levée du mandat de détention provisoire, met l\'inculpé et le dossier de procédure à la disposition du Commissaire du Gouvernement. Ce dernier, sauf appel contre l\'ordonnance, les achemine au Parquet près la juridiction compétente.\n
+  </string>
+  <string name="article16cjm">
+    Le Juge d\'instruction peut également mener l\'information judiciaire hors du siège de sa juridiction. Celle-ci est dite instruction foraine.\n
+  </string>
+  <string name="article17cjm">
+    Le Juge d\'instruction chargé d\'un dossier et les membres de la formation de jugement doivent, pour ceux qui font partie des forces de défense, avoir au moins le grade de l\'inculpé, du prévenu ou de l\'accusé le plus gradé.\n
+  </string>
+  <string name="article18cjm">
+    Les voies de recours contre les ordonnances du Juge d\'instruction Sont celles prévues par le Code de Procédure Pénale.\n
+  </string>
+  <string name="article19cjm">
+    \t(1) La procédure applicable devant le Tribunal Militaire est celle de droit commun, sous réserve des dispositions spéciales prévues par la présente loi.\n\n
+    \t(2) Le Tribunal Militaire est saisi par;\n\n
+    \t\ta) Citation directe à la requête du Commissaire du Gouvernement;\n\n
+    \t\tb) Ordonnance de renvoi du Juge d\'instruction;\n\n
+    \t\tc) Arrêt de renvoi de la Chambre de contrôle de l\'instruction;\n\n
+    \t\td) Procès-verbal d\'interrogatoire au Parquet en cas de flagrant délit.\n
+  </string>
+  <string name="article20cjm">
+    \t(1) La date de la première audience est fixée par le Président du Tribunal, après concertation avec le Commissaire du Gouvernement.\n\n
+    \t(2) Le Commissaire du Gouvernement communique les rôles des audiences au Ministre chargé de la justice militaire et, à titre d\'information, au Procureur Général près la Cour d\'Appel.\n
+  </string>
+  <string name="article21cjm">
+    Le Président du Tribunal Militaire convoque les membres dudit Tribunal aux jour et heure fixés.
+  </string>
+  <string name="article22cjm">
+    \t(1) Les débats devant le Tribunal Militaire se déroulent conformément aux règles du Code de Procédure Pénale.\n\n
+    \t(2) La juridiction statue par une seule et même décision, d’abord sur les incidents et exceptions, ensuite au fond. Elle statue par un jugement séparé sur toute exception d’ordre public.\n\n
+    Sont réputées d’ordre public, toutes les exceptions qui, en cas d’admission, auraient pour effet de mettre fin à la procédure pendante devant la juridiction.\n
+  </string>
+  <string name="article23cjm">
+    Les Magistrats du Siège du Tribunal Militaire peuvent être récusés dans les conditions de forme et de fond prévues par le Code de Procédure Pénale.\n
+  </string>
+  <string name="article24cjm">
+    \t(1) Les jugements du Tribunal Militaire sont:\n\n
+    \t\ta) Rendus après la clôture des débats, soit immédiatement. soit dans un délai de quinze (15) jours, lorsque l’audience a lieu au siège du Tribunal, ou de trente (30) jours lorsqu’il S’agit d’une audience foraine;\n\n
+    \t\tb) Rédigés avant leur prononcé;\n\n
+    \t\tc) Motivés en fait et en droit, sous peine de nullité d’ordre public.\n\n
+    \t\t(2) Les dépens sont liquidés et ventilés dans le jugement.\n
+  </string>
+  <string name="article25cjm">
+    \t(1) Les jugements du Tribunal Militaire sont susceptibles d’opposition ou d’appel.\n\n
+    \t(2) Les formes et délais d’opposition et d’appel sont ceux du Code de Procédure Pénale.\n\n
+    \t(3) Les appels interjetés contre les jugements du Tribunal Militaire obéissent aux règles prévues par la loi portant organisation judiciaire au Cameroun et le Code de Procédure Pénale.\n\n
+    \t(4) Pour l’instruction desdits appels, le Commissaire du Gouvernement chargé de l’action publique à la Cour d’Appel exerce toutes les attributions prévues par le Code de Procédure Pénale.\n\n
+    \t(5) En cas de pourvoi, il en assure les diligences.
+  </string>
+  <string name="article26cjm">
+    Les dispositions légales relatives à la gratuité de la justice et aux exceptions concernant les formalités de timbre et de l’enregistrement, les redevances des greffes et les frais de multiplication du dossier d’appel sont applicables aux procédures relevant de la compétence des juridictions militaires.\n
+  </string>
+  <string name="article27cjm">
+     En temps de guerre, les dispositions ci-après sont applicables:\n\n
+    \ta) Le Tribunal Militaire, siégeant en matière criminelle. est composé d’un Président, Magistrat Militaire et des Assesseurs Militaires
+    \tb) En matière correctionnelle ou de simple police, les affaires sont jugées par un Magistrat Militaire;\n\n
+    \tc) Le Tribunal Militaire peut, nonobstant les dispositions du b ci-dessus, par jugement avant dire droit, rendu d’office où sur réquisitions du Commissaire du Gouvernement, décider qu’une affaire sera jugée en collégialité;\n\n
+    \td) Les Assesseurs non-magistrats appelés à siéger sont, soit des Officiers Généraux, soit des Officiers Supérieurs des Forces de Défense ou assimilés, nommés par décret du Président de la République;\n\n
+    \te) Lorsque le mis en cause relève du Corps de la Sûreté Nationale, de l’Administration Pénitentiaire, de l’Administration des Eaux et Forêts ou de l’Administration des Douanes, l’un des Assesseurs est obligatoirement membre dudit Corps;\n\n
+    \tf) Le Tribunal Militaire se réunit sur simple convocation de son Président, quarante-huit (48) heures avant l’audience;\n
+    \tg) Le Tribunal Militaire statue en premier et dernier ressort.\n\n
+    \th) Le prévenu ou l’accusé dispose d’un délai de vingt-quatre (24) heures pour faire le choix d’un Conseil\n\n
+    \ti) La constitution de partie civile est irrecevable;\n\n
+    \tj) Le Tribunal Militaire se prononce obligatoirement sur les confiscations prévues par les textes en vigueur.\n
+  </string>
+  <string name="article28cjm">
+    \t(1) Lorsqu’un Magistrat Militaire est susceptible d’être poursuivi pour une infraction relevant de la compétence des juridictions de droit commun, les dispositions des articles 629, 630, 631 et 632 du Code de Procédure Pénale sont applicables.\n\n
+    \t(2) Toutefois, l’un des trois magistrats chargés du jugement de l’affaire est obligatoirement un magistrat militaire.\n\n
+    \t(3) La requête est adressée au Président de la Cour Suprême par le Ministre chargé de la justice militaire.\n
+  </string>
+  <string name="article29cjm">
+    Lorsque l’infraction relève de la compétence du Tribunal Militaire, le Ministre chargé de la justice militaire désigne un Magistrat chargé d’instruire l’affaire, et trois (03) autres d’un grade au moins égal à celui du mis en cause, en vue du jugement. éventuel de l’affaire en premier ressort. II désigne également le représentant du Ministère Public.\n
+  </string>
+  <string name="article30cjm">
+    \t(1) Est considérée comme infraction militaire, tout acte de manquement grave au devoir et à la discipline militaire réprimé par le présent Code.\n\n
+    \t(2) Les peines et mesures applicables aux infractions réprimées par le présent Code sont celles prévues par le Code Pénal.\n\n
+    \t(3) Le Code Pénal reste applicable aux faits non spécifiquement incriminés par le présent Code.\n\n
+    \t(4) Le régime de la responsabilité pénale, ainsi que les modalités de modulation de la peine par le Juge sont ceux prévus au Livre 1° du Code Pénal, sauf disposition spéciale contraire.\n
+  </string>
+  <string name="article31cjm">
+    \t(1) Pour l’application de la présente loi, le militaire est:\n\n
+    \t\ta) En temps de paix, le personnel des Forces de Défense, notamment de la Gendarmerie Nationale, de l’Armée de Terre, de l’Armée de l’Air ou de la Marine Nationale;\n\n
+    \t\tb) en temps de guerre, d’état d’urgence ou d’état d’exception, en plus du personnel visé à l’alinéa a ci-dessus, le personnel de la réserve mobilisable, le personnel des forces ou corps qui, dans les missions quotidiennes, porte des armes de guerre ou de défense, en l’occurrence le personnel de la Sûreté Nationale, de l’Administration Pénitentiaire, de l’Administration des Eaux et Forêts et les Douaniers Paramilitaires.\n\n
+    \t(2) Est assimilé aux militaires, pour les infractions commises dans une enceinte militaire ou dans l’exercice de leurs fonctions, le personnel civil en service au Ministère chargé de la défense.\n
+  </string>
+  <string name="article32cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à trois (03) ans, tout militaire qui, sans autorisation de son chef hiérarchique, est absent de son lieu de service pendant huit (08) jours successifs, ou qui, mis en mission, en congé ou en permission, ne se présente pas à son lieu de service dans les quinze (15) jours suivant celui fixé pour son retour.\n\n
+    Toutefois, le militaire qui n’a pas atteint trois (03) mois de service effectif après Sa formation, ne peut être déclaré déserteur qu’après trente (30) jours d’absence.\n\n
+    \t(2) Sont considérées comme circonstances aggravantes:\n\n
+    \t\t- La ualité d’Officier d’Active;\n\n
+    \t\t- Le fait d’emporter une arme ou tout autre matériel affecté au service;\n\n
+    \t\t- Le fait de déserter étant de service;\n\n
+    \t\t- Le quartier consigné.\n\n
+    \t(3) Dans tous les cas visés à l’alinéa (2) ci-dessus, la peine est doublée.\n\n
+    \t(4) Le déserteur qui se présente volontairement et qui justifie d’une raison valable peut bénéficier des circonstances atténuantes.\n\n
+    \t(5) La prescription de l’action publique relative à la désertion ne commence à courir qu’à compter du jour où le déserteur atteint l’âge du départ à la retraite de son grade.\n
+  </string>
+  <string name="article33cjm">
+    \t(1) Est puni d’un emprisonnement de deux (02) à cinq (05) ans, tout militaire qui;\n\n
+    \t\ta) sans autorisation préalable, franchit les limites du territoire national et séjourne à l’étranger pendant au moins soixante-douze (72) heures;\n\n
+    \t\tb) étant en désertion au sens de l’article 32 ci-dessus, franchit les limites du territoire de la République du Cameroun;\n\n
+    \t\tc) Etant en mission ou en service à l’étranger, est absent de son lieu de service ou de mission pendant quarante-huit (48) heures sans autorisation du Chef de mission ou du Chef de détachement;\n\n
+    \t\td) Etant en permission à l’étranger, y reste sans motif valable et sans autorisation pendant quatorze (14) jours après l’expiration de sa permission.\n\n
+    \t(2) En cas de circonstances aggravantes telles que prévues à l’article 32 alinéa 2 ci-dessus, la peine est doublée.\n
+  </string>
+  <string name="article34cjm">
+    \t(1) A l’étranger ou à l’intérieur, la désertion en présence de l’ennemi est punie d’un emprisonnement de dix (10) à vingt (20) ans.\n\n
+    Est considéré comme se trouvant en présence de l’ennemi, tout militaire aux prises avec un groupe armé ou engagé dans une opération-dattaque armée.\n\n
+    \t(2) Est punie d’un emprisonnement de cinq (05) à dix (10) ans, toute désertion avec complot.\n\n
+    \t\ta) Le complot est la concertation entre deux (02) militaires au moins, en vue de déserter.\n\n
+    \t\tb) Le chef du complot, c’est-à-dire le militaire le plus ancien au grade le plus élevé, est exclu du bénéfice des circonstances atténuantes et est puni du maximum de la peine encourue.\n\n
+    \t(3) Est punie de l’emprisonnement à vie, toute désertion avec complot en temps de guerre ou en présence de l’ennemi.\n\n
+    \t(4) Tout militaire qui déserte pour s’allier à l’ennemi est puni de la peine de mort.\n
+  </string>
+  <string name="article35cjm">
+    \t(1) Est punie d’un emprisonnement de six (06) mois à trois (03) ans, toute personne qui, par quelque moyen que ce soit, provoque, incite ou favorise la désertion.\n\n
+    \t(2) Si les actes ont eu lieu en faveur d’une armée ennemie, la peine est l’emprisonnement à vie.\n
+  </string>
+  <string name="article36cjm">
+    \t(1) Est puni d’un emprisonnement de trois (03) mois à un (01) an, tout militaire qui, étant de service ou désigné de service, quitte son poste sans autorisation de son chef hiérarchique, où sans justifier d’un cas de force majeure ou d’une contrainte irrésistible.\n\n
+    \t(2) Par poste, il faut entendre tout endroit où le militaire a été envoyé ou se trouve sur ordre de ses chefs pour l’accomplissement d’une mission.\n\n
+    \t(3) Si le militaire était en faction ou en vedette au moment de l’abandon, la peine est de six (06) mois à deux (02) ans.\n\n
+    \t(4) Si l’abandon a lieu en présence de l’ennemi, des rebelles ou d’émeutiers, la peine est de cinq (05) à dix (10) ans.\n\n
+    \t(5) Si le coupable est le Chef de poste au moment des faits ou s’il est un Officier d’Active, la peine est un emprisonnement de dix (10) à vingt (20) ans.\n
+  </string>
+  <string name="article37cjm">
+    \t(1) Est puni d’un emprisonnement de un (01) à trois (03)-mois.\n\n
+    \t\t- Tout militaire qui, étant en faction ou en vedette, est trouvé endormi.\n\n
+    \t(2) En temps de guerre ou en présence de l’ennemi, le maximum de la peine est de trois (03) ans.\n
+  </string>
+  <string name="article38cjm">
+    Tout militaire qui, hors le cas d’excuse légitime, omet ou refuse de se rendre aux audiences des juridictions militaires où il est appelé à siéger, est puni d’un emprisonnement de deux (02) à six (06) mois.\n
+  </string>
+  <string name="article39cjm">
+    \t(1) Est puni d’un emprisonnement de un (01) à cinq (05) ans, tout militaire qui n’obéit pas aux ordres légitimes ou n’exécute pas les ordres légitimes reçus de son supérieur hiérarchique.\n\n
+    Par ordre, il faut entendre, un commandement impératif ponctuel, donné par un Supérieur hiérarchique d’accomplir une tâche ou un acte déterminé.\n\n
+    Toutefois, l’obéissance à un ordre manifestement illégal tel que défini dans les règlements, engage la responsabilité pénale du subordonné, sans préjudice de celle du donneur d’ordre.\n\n
+    \t(2) En présence de l’ennemi, des rebelles ou d’émeutiers, le refus d’obéissance est puni de l’emprisonnement à vie.\n
+  </string>
+  <string name="article40cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à trois (03) ans, tout militaire qui viole une consigne donnée.\n\n
+    \t(2) Par consigne, il faut entendre une mesure, une prescription, une recommandation ou une instruction donnée de façon permanente à l’armée en général, pour l’accomplissement de ses missions et son fonctionnement ou de façon ponctuelle à un militaire seul ou à un groupe de militaires pour l’accomplissement d’une mission.\n\n
+  </string>
+  <string name="article41cjm">
+    \t(1) Sont considérés comme étant en état de révolte, les militaires qui, réunis au nombre de deux (02) au moins:\n\n
+    \t\ta) De concert, refusent, à la première sommation, d’obéir aux ordres de leur chef;\n\n
+    \t\tb) Prennent les armes et agissent contre les ordres de leur chef;\n\n
+    \t\tc) Se livrent à des violences, destructions et dégradations, ou font usage de leurs armes.\n\n
+    \t(2) Dans les cas visés à l’alinéa 1 a et b ci-dessus. le révolté est puni d’un emprisonnement de cinq (05) à dix (10) ans.\n\n
+    \t(3) Dans le cas visé à l’alinéa 1 c, la peine prévue à l’alinéa 2 ci-dessus est doublée.\n\n
+    \t(4) L’instigateur de la révolte est puni du maximum de la peine.\n
+  </string>
+  <string name="article42cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à cinq (05) ans, tout militaire qui, pendant le service, tient des propos, écrits ou gestes menaçants ou injurieux à l’égard d’un supérieur.\n\n
+    \t(2) Si l’outrage n’a pas eu lieu pendant le service ou à l’occasion du service, la peine est de six (06) mois à deux (02) ans.\n\n
+    \t(3) Si le subordonné ne connaissait pas la qualité de supérieur de la victime, la peine ne peut excéder six (06) mois.\n
+  </string>
+  <string name="article43cjm">
+    \t(1) Est puni d’un emprisonnement de trois (03) mois à trois (03) ans, toute personne qui, par des paroles ou gestes, outrage le drapeau national.\n\n
+    \t(2) Est puni d’un emprisonnement de six (06) mois à cinq (05) 4 ans, tout militaire qui refuse de rendre les honneurs au drapeau national.\n
+  </string>
+  <string name="article44cjm">
+    \t(1) Est puni d’un emprisonnement d’un (01) à trois (03) mois et d’une amende de cent mille (100 000) à un million (1 000 000) de francs CFA, tout médecin militaire, tout personnel de santé militaire, tout militaire qui procède ou fait procéder au test médical d’un militaire sans son consentement éclairé, ou qui révèle la maladie ou le statut médical d’un militaire malade où infecté.\n\n
+    \t(2) Est puni d’un emprisonnement de trois (03) mois à trois (03) ans et d’une amende de deux cent mille (200 000) à deux millions (2 000 000) de francs CFA, toute personne qui, sans avoir été provoquée, use à l’encontre d’un militaire malade ou blessé, une expression ou geste injurieux ou outrage relatif a une maladie ou une infirmité.\n\n
+    Si, en plus, des violences sont exercées sur la personne du militaire malade ou blessé, les peines sont doublées.\n\n
+    \t(3) Est puni d’un emprisonnement d’un (01) mois à un (01) an et d’une amende de cent mile (100 000) à un million (1 000 000) de francs CFA, tout militaire ou personnel des forces de défense qui commet à l’égard d’un militaire, une discrimination fondée uniquement sur son statut médical.\n
+  </string>
+  <string name="article45cjm">
+    \t(1) Est puni d’un emprisonnement de dix (10) à vingt (20) ans, tout militaire qui, pendant le service ou à l’occasion du service, exerce des voies de fait envers Son supérieur ou porte atteinte à l’intégrité physique de son supérieur.\n\n
+    \t(2) Les peines sont les mêmes que celles prévues à l’alinéa 1 ci-dessus si la victime était en faction ou en vedette au moment des faits.\n\n
+    \t(3) Si les faits n’ont pas eu lieu pendant le service où à l’occasion du service, l’emprisonnement est de six (06) mois à cinq (05) ans.\n
+    \t(4) Si le coupable ne connaissait pas la qualité de supérieur de la victime, la peine ne peut excéder un (01) an.\n
+  </string>
+  <string name="article46cjm">
+    Tout militaire qui tient des propos injurieux, fait des gestes outrageants, ou profère des menaces à l’endroit d’une sentinelle ou d’une vedette est puni d’un emprisonnement de six (06) jours à six (06) mois.\n
+  </string>
+  <string name="article47cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à trois (03) ans, tout militaire qui, hors le cas de légitime défense de soi-même ou d’autrui, exerce des violences ou voies de fait sur son subordonné.\n\n
+    \t(2) Si la victime était en faction où en vedette au moment des faits, la peine est doublée.\n
+  </string>
+  <string name="article48cjm">
+    Est puni d’un emprisonnement de six (06) mois à deux (02) ans, tout militaire qui, sans avoir été provoqué, outrage son subordonné par des écrits, paroles ou gestes.\n\n
+    Si l’outrage n’a pas eu lieu en présence des subordonnés de la victime, la peine ne peut excéder deux (02) mois d’emprisonnement.\n
+  </string>
+  <string name="article49cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à deux (02) ans et d’une amende de deux cent mille (200 000) à un million (1 000 000) de francs CFA, tout militaire ou assimilé qui, usant de l’autorité que lui confère sa position, harcèle un autre en donnant des ordres, proférant des menaces, imposant des contraintes ou exerçant des press:ons dans le but d’obtenir des faveurs de nature sexuelle.\n\n
+    \t(2) Si les faits ont lieu dans le cadre de la formation militaire où d’un Stage militaire, les peines sont doublées.\n
+  </string>
+  <string name="article50cjm">
+    \t(1) Est puni d’un emprisonnement de six (06) mois à cinq (05) ans, tout militaire qui prend un commandement sans ordre ou motif légitime, ou qui retient un commandement contre les ordres de ses chefs.\n\n
+    \t(2) Les peines sont doublées au cas où les faits ont eu lieu en zone d’opérations.\n
+  </string>
+  <string name="article51cjm">
+    \t(1) Est punie d’un emprisonnement de cinq (05) à dix (10) ans, toute personne qui, en zone d’opérations, dépouille un militaire blessé, malade ou mort.\n\n
+    \t(2) Si, outre les faits visés à l’alinéa 1° ci-dessus, la personne exerce des violences sur le militaire, la peine est la peine de mort, quel que soit le mobile des violences.\n
+  </string>
+  <string name="article52cjm">
+    \t(1) On entend par effets militaires au sens du présent Code, l’ensemble des biens meubles et immeubles qui, par nature où par destination, sont affectés au service des forces de défense.\n\n
+    \t(2) Est puni d’un emprisonnement de six (06) mois à cinq (05) ans, tout militaire qui dissipe ou ne représente pas un effet d’armement, d’équipement ou d’habillement, ou tout autre objet affecté au service ou à lui confié pour le service.\n\n
+    \t(3) Le maximum de la peine est de quinze (15) ans, lorsque les effets dissipés étaient indispensables au fonctionnement du service;\n
+  </string>
+  <string name="article53cjm">
+    \t(1) Tout miitaire qui détourne des effets militaires, au sens de l’article 52 ci- dessus, est puni:\n\n
+    \t\ta. D’un ernprisonnement à vie, au cas où la valeur de ces biens excède cinq cent mille (500 000) francs CFA :
+    \t\tb. D’un emprisonnement de quinze (15) à vingt (20) ans, au cas où cette valeur est supérieure à cent mille (100 000) francs CFA et inférieure ou égale à cinq cent mille (500 000) francs CFA;\n\n
+    \t\tc. D’un emprisonnement de cinq (05) à dix (10) ans et d’une amende de cinquante mille (50 000) à cinq cent mille (500 000) francs CFA, au cas où cette valeur est inférieure ou égale à cent mille (100 000) francs CFA.\n\n
+    \t(2) Les peines édictées à l’alinéa 1 ci-dessus ne peuvent être réduites, par admission de circonstances atténuantes, respectivement au-dessous de dix (10), cinq (05) ou de deux (02) ans et le surcis ne peut en aucun cas être accordé.\n\n
+    \t(3) Ou de deux (02) ans et le sursis ne peut en aucun cas être accordé.\n\n
+    \t(4) Dans les cas prévus à l’article 87 (2) du Code Pénal, le minimum de la peine est respectivement de cinq (05) ans, de deux (02) ans et d’un (01) an et le Sursis ne peut être accordé, sauf excuse atténuante.\n\n
+    \t(5) La confiscation prévue à l’article 35 du Code Pénal est obligatoirement prononcée, ainsi que les déchéances de l’article 30 du Code Pénal, pendant cinq (05) ans au moins et dix (10) ans au plus.\n\n
+    \t(6) La publication de la décision doit être ordonnée.\n\n
+    \t(7) Lorsque cette valeur est supérieure où égale à cinquante millions (50 000 000) de francs CFA, le détournement d’effets militaires commis par des militaires, est jugé par le Tribunal Criminel Spécial.\n\n
+    \t(8) Dans les cas où cette valeur est inférieure. à cinquante millions (50 000 000) de francs CFA, le Tribunal Militaire est compétent et les dispositions légales relatives à la restitution du corps du délit et à l’arrêt des poursuites prévues pour le Tribunal Criminel Spécial y sont applicables.\n\n
+    \t(9) En outre, les prérogatives dévolues au Ministre Chargé de la justice et au Procureur Général près le Tribunal Criminel Spécial sont, le cas échéant, respectivement accomplies par le Ministre chargé de la justice militaire et par le Commissaire du Gouvernement près le Tribunal Militaire compétent.\n
+  </string>
+  <string name="article54cjm">
+    \t(1) Est puni d’un emprisonnement de cinq (05) à dix (10) ans, et d’une amende de cent mille (100 000) à un million (1 000 000) de francs CFA, tout militaire qui soustrait, obtient frauduleusement ou met en gage des effets militaires.\n\n
+    \t(2) Les peines prévues à l’alinéa 1 ci-dessus sont doublées, si ces faits ont été commis:\n\n
+    \t\t- À l’aide de violence;\n\n
+    \t\t- Avec port d’arme;\n\n
+    \t\t- Par effraction extérieure, par escalade ou à l’aide d’une fausse clé;\n\n
+    \t\t- À l’aide d’un véhicule automobile.\n
+  </string>
+  <string name="article55cjm">
+    \t(1) Est puni d’un emprisonnement de cinq (05) à dix (10) ans, et d’une amende de cent mille (100 000) à un million (1 000 000) de francs CFA, tout militaire qui cède illégalement des effets militaires.\n\n
+    \t(2) Le maximum de la peine est de quinze (15) ans, lorsque les effets cédés étaient indispensables au fonctionnement du service.\n
+  </string>
+  <string name="article56cjm">
+    \t(1) Est puni d’un emprisonnement de cinq (05) à dix (10) ans, et d’une amende de cent mille (100 000) à un million (1 000 000) de francs CFA, toute personne qui détient ou dispose des effets militaires, à la suite du vol tel que défini à l’article 54 alinéa 1 ci-dessus, soit en connaissance de cause, soit en ayant des raisons d’en soupçonner l’origine délictuelle.\n\n
+    \t(2) En cas de crime, tel que prévu à l’article 54 alinéa 2 ci-dessus, les peines sont doublées.\n
+  </string>
+  <string name="article57cjm">
+    \t(1) Est puni d’un emprisonnement de un (01) à cinq (05) ans, tout chef militaire qui ne reverse pas aux militaires les effets ou deniers à eux destinés.\n\n
+    \t(2) Tout militaire qui, à l’intérieur d’une enceinte militaire ou d’un poste, Soustrait frauduleusement quelque objet que ce soit appartenant à un particulier, est puni des peines prévues à l’alinéa 1° ci-dessus.\n\n
+    \t(3) Dans le cas prévu à l’alinéa 2 ci-dessus, en cas d’admission au bénéfice des circonstances atténuantes, la peine ne Saurait être inférieure à deux (02) ans.\n
+  </string>
+  <string name="article58cjm">
+    Est puni d’un emprisonnement de dix (10) à vingt (20) ans, tout militaire qui met le feu ou détruit, par quelque moyen que ce soit, un édifice, un bâtiment, une installation militaire ou tout accessoire immobilier concourant à la défense nationale.\n\n
+  </string>
+  <string name="article59cjm">
+    \t(1) Est puni d’un emprisonnement de un (01) à dix (10) ans, tout militaire qui brise ou met hors service tout objet ou effet d’armement, de casernement, d’équipement où d’habillement, ou des véhicules. engins et aéronefs appartenant aux forces de défense. à lui confiés pour le service ou affectés à l’usage des militaires.\n\n
+    \t(2) Est puni des peines prévues à l’alinéa 1er ci-dessus, tout militaire qui, volontairement, détruit, brûle ou lacère des documents, registres, minutes ou actes originaux de l’autorité militaire.\n
+  </string>
+  <string name="article60cjm">
+    \t(1) Si les faits prévus aux articles 52, 53 alinéa 1 b et c, 94, 55, 56, 57, 58 et 59 ci-dessus ont lieu en temps de guerre, de crise, en état d’urgence, en état d’exception ou en zone d’opérations, les peines sont doublées.\n\n
+    \t(2) Le maximum de la peine est de trente (30) ans, dans les cas prévus aux articles 54 alinéa 2 et 56.\n
+  </string>
+  <string name="article61cjm">
+    Est puni de la peine de mort, tout militaire camerounais ou au service du Cameroun qui:\n\n
+    \t(1) Porte les armes contre le Cameroun.\n\n
+    \t(2) Livre à l’ennemi les approvisionnements de l’armée, les plans ou places de guerre ou arsenaux maritimes, des ports ou aéroports militaires, soit le mot d’ordre, les codes ou secret d’une opération militaire, d’une expédition ou négociation.\n
+  </string>
+  <string name="article62cjm">
+    Est puni de la peine de mort, tout militaire qui:\n\n
+    \t- Entretient des intelligences avec l’ennemi dans le but de favoriser ses entreprises;\n\n
+    \t- Articipe à des complots dans le but de compromettre le déroulement d’une opération militaire;\n\n
+    \t- Provoque la fuite ou empêche le ralliement à l’occasion d’une opération militaire.\n
+  </string>
+  <string name="article63cjm">
+    Est considérée corime espion, et punie de la peine de mort:\n\n
+    \t(1) Toute personne qui s’introduit de façon délibérément clandestine ou Sous un fallacieux prétexte dans une place de guerre, un poste où établissement militaire, pour s’y procurer des documents ou renseignements dans l’intérêt de l’ennemi.\n\n
+    \t(2) Toute personne qui procure à l’ennemi des documents ou renseignements susceptibles de nuire aux opérations des forces, ou de compromettre la sûreté des places, postes ou autres établissements militaires.\n
+  </string>
+  <string name="article64cjm">
+    \t(1) Est puni de l’emprisonnement à vie, quiconque provoque, facilite ou aide les militaires camerounais à passer à l’ennemi.\n\n
+    \t(2) Si le coupable est un militaire, il est puni de la peine de mort.\n
+  </string>
+  <string name="article65cjm">
+    \t(1) Est puni d’un emprisonnement de un (01) à cinq (05) ans, tout militaire qui, pour se soustraire aux obligations du service, se rend temporairement ou définitivement inapte.\n\n
+    \t(2) Si les faits ont eu lieu en présence de l’ennemi où en zone d’opérations, la peine est doublée.\n\n
+    \t(3) Sont punis des peines prévues aux alinéas 1 et 2 ci-dessus, les Médecins, Pharmaciens et le personnel médical, complices de ces faits.\n
+  </string>
+  <string name="article66cjm">
+    Est puni de l’emprisonnement à vie, tout chef militaire qui capitule sans avoir épuisé tous les moyens de défense dont il disposait, ou sans avoir fait tout ce que lui . prescrivaient le devoir et l’honneur.\n
+  </string>
+  <string name="article67cjm">
+    \t(1) Les militaires qui, en bande, pillent en arrachant ou détruisant des biens, au préjudice des particuliers, sont punis d’un emprisonnement de cinq (05) à dix (10) ans.\n\n
+    \t(2) Si le pillage est commis avec des armes, avec des violences physiques ou avec bris de porte ou clôture extérieure, la peine est de dix (10) à vingt (20) ans.\n\n
+    \t(3) L’instigateur du pillage ou l’officier, reconnu coupable, est puni du maximum de la peine.\n
+  </string>
+  <string name="article68cjm">
+    L’ordonnance visée à l’article 3 alinéa 2 ci-dessus est déposée sur les Bureaux de l’Assemblée Nationale et du Sénat aux fins de ratification.\n
+  </string>
+  <string name="article69cjm">
+    Les personnes non définitivement jugées à la date d’entrée en vigueur de la présente loi demeurent régies par les textes sous l’emprise desquels elles ont été poursuivies.\n
+  </string>
+  <string name="article70cjm">
+    Sont abrogées, toutes dispositions antérieures contraires à la présente loi notamment la loi n° 2008/015 du 29 décembre 2008 portant organisation judiciaire militaire et fixant des règles de procédure applicables devant les Tribunaux Militaires, le décret du 19 février 1940 et l’arrêté du 21 mars 1940 rendant applicable au Cameroun le Code de Justice Militaire du 09 mars 1928.\n
+  </string>
+  <string name="article71cjm">
+    La présente loi sera enregistrée, publiée suivant la procédure d’urgence, puis insérée au Journal Officiel en français et en anglais.\n
+  </string>
+
+</resources>

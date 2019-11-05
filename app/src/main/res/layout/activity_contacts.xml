@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:fancy="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/material_blue_grey_800"
+  tools:context=".a_propos.Contacts">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="15dp">
+      <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/basic"/>
+      <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#1565C0"
+        fancy:fb_focusColor="#1565C0"
+        fancy:fb_iconResource="@drawable/facebook_logo"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="LOGRAM TECHNOLOGIES"
+        fancy:fb_textColor="#FFFFFF" />
+      <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/facebook"
+        android:layout_marginTop="20dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#50ABF1"
+        fancy:fb_focusColor="#50ABF1"
+        fancy:fb_iconResource="@drawable/twitter"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text=" &#x40;LOGRAM_TECHNOLOGIES"
+        fancy:fb_textColor="#FFFFFF" />
+      <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/twitter"
+        android:layout_marginTop="20dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#1BD741"
+        fancy:fb_focusColor="#1BD741"
+        fancy:fb_iconResource="@drawable/whatsapp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="678878019/655695437"
+        fancy:fb_textColor="#FFFFFF" />
+      <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/whatsapp"
+        android:layout_marginTop="20dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/Gray"
+        fancy:fb_focusColor="@color/Gray"
+        fancy:fb_iconResource="@drawable/envelope"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="logramtech@gmail.com"
+        fancy:fb_textColor="#FFFFFF" />
+    </RelativeLayout>
+  </ScrollView>
+</RelativeLayout>

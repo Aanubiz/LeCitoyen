@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="titre1cra">TITRE I\n DISPOSITIONS GENERALES</string>
+  <string name="titre2cra">CHAPITRE I\n DEFINITIONS</string>
+  <string name="titre3cra">CHAPITRE I\n DE LA CLASSIFICATION DU TRANSIT\n\n SECTION I\n DE LA CLASSIFICATION</string>
+  <string name="titre4cra">SECTION II\n DU TRANSIT</string>
+  <string name="titre5cra">TITRE II\n DES DISPOSITIONS SPECIFIQUES AUX DIFFERENTES CATEGORIES D’ARMES ET MUNITIONS\n\n CHAPITRE I\n DES ARMES DE 1ère, 2ème ET 3ème CATEGORIES ET LEURS MUNITIONS\n\n SECTION I\n DES ARMES DE 1ère ET 2ème CATEGORIES ET LEURS MUNITIONS</string>
+  <string name="titre6cra">SECTION II\n DES ARMES DE 3ème CATEGORIES ET LEURS MUNITIONS\n\n PARAGRAPHE I\n DES ARMES NUCLEAIRES ET DES DISPOSITIFS DE DISPERSION RADIOLOGIQUE</string>
+  <string name="titre7cra">PARAGRAPHE II\n DES ARMES BIOLOGIQUE</string>
+  <string name="titre8cra">PARAGRAPHE III\n DES ARMES CHIMIQUES</string>
+  <string name="titre9cra">CHAPITRE II\n DES ARMES DE 4ème ET 5ème CATEGORIES ET LEURS MUNITIONS</string>
+  <string name="titre10cra">CHAPITRE III\n DES ARMES DE 6ème 7ème ET 8ème CATEGORIES ET LEURS MUNITIONS</string>
+  <string name="titre11cra">CHAPITRE IV\n DES ARMES A SOUS-MUNITIONS</string>
+  <string name="titre12cra">CHAPITRE V\n DU MARQUAGE DES ARMES A FEU</string>
+  <string name="titre13cra">CHAPITRE VI\n DE LA GESTION DES ARMURERIES</string>
+  <string name="titre14cra">TITRE III\n DES DISPOSITIONS PENALES\n\n CHAPITRE I\n DISPOSITIONS PENALES RELATIVES AUX ARMES DE 1ère, 2ème, 4ème, 5ème, ET 8ème CATEGORIES ET LEURS MUNITIONS</string>
+  <string name="titre15cra">CHAPITRE II\n DISPOSITIONS PENALES RELATIVES AUX ARMES 3ème CATEGORIES\n\n SECTION I\n DES DISPOSITIONS PENALES RELATIVES AUX ARMES CHIMIQUES</string>
+  <string name="titre16cra">SECTION II\n DES DISPOSITIONS PENALES RELATIVES AUX ARMES BIOLOGIQUES, NUCLEAIRE ET DES DISPOSITIFS DE DISPERSIONS RADIOLOGIQUE</string>
+  <string name="titre17cra">SECTION III\n DE LA PRESCRIPTIONS ET DES CIRCONSTANCES ATTENUANTES RELATIVES AUX INFRACTIONS LIES AUX ARMES DE 3ème CATEGORIE</string>
+  <string name="titre18cra">CHAPITRE III\n DISPOSITIONS PENALES COMMUNES</string>
+  <string name="titre19cra">TITRE IV\n DISPOSITIONS DIVERSES, TRANSITOIRES ET FINALES</string>
+
+  <string name="article1cra">
+    La présente loi porte régime général des armes et munitions aux Cameroun.\n\n
+    A ce titre, elle régit la fabrication, l’introduction sur le territoire national, l’exportation, la cession, l’acquisition, le transit, le transport, la traçabilité, la détention et le port ces armes et munitions.\n
+  </string>
+  <string name="article2cra"><![CDATA[
+    Au sens de la présente loi et des textes réglementaires subséquents, les définitions ci-après sont admises:<br/><br/>
+    <font color="#00c853"><u>Accessoires:</u></font> Pièces additionnelles ne modifiant pas le fonctionnement intrinsèque de l’arme, y compris tout dispositif destiné à atténuer le bruit causé par le tir.<br/><br/>
+    <font color="#00c853"><u>Agent de lutte antiémeute:</u></font> Tout produit chimique qui n’est pas inscrit à un tableau de produits chimiques toxiques et qui peut provoquer rapidement chez les êtres humains une irritation sensorielle ou une incapacité physique disparaissant à bref délai après qu’a cessé l’exposition.<br/><br/>
+    <font color="#00c853"><u>Agent microbiologique:</u></font> Organisme microscopique vivant (algue, champignon, bactérie, toxines, etc.) possédant des propriétés nocives pouvant invalider ou tuer les êtres vivants et utilisés comme agents biologiques.<br/><br/>
+    <font color="#00c853"><u>Arme:</u></font> Tout objet ou dispositif pouvant tuer, blesser, frapper, neutraliser ou provoquer une atteinte corporelle.<br/><br/>
+    <font color="#00c853"><u>Arme à effet sonorisant ou arme à blanc:</u></font> Objet ou dispositif ayant ou non l’apparence d’une arme à feu conçu et destiné, par la percussion d’une munition, à provoquer uniquement un effet sonore et dont les caractéristiques excluent le tir.<br/><br/>
+    <font color="#00c853"><u>Arme à feu:</u></font> Toute arme à canon qui propulsé des plombs, une balle ou un projectile par l’action d’un propulseur combustible, qui est conçue pour ce faire ou pour être transformée à cette fin.<br/><br/>
+    <font color="#00c853"><u>Arme à feu de fabrication artisanale:</u></font> Toute arme à canon conçue de façon artisanale qui propulse des plombs, une balle ou un projectile par l’action d’un propulseur combustible pouvant tuer, blesser ou entraîner chez la victime une incapacité.<br/><br/>
+    <font color="#00c853"><u>Arme ancienne et de saltsctiort:</u></font> Arme d’un modèle ancien, neutralisée, déclassée par le Ministère en charge de la Défense et figurant dans son fichier armement.<br/><br/>
+    <font color="#00c853"><u>Arme de tir et de salon:</u></font> Tout objet ou dispositif conçu pour le sport dont le système moteur est à air comprimé.<br/><br/>
+    <font color="#00c853"><u>Arme artisanale:</u></font> Tout objet ou dispositif conçu de façon artisanale pouvant tuer, blesser ou produire un effet sonorisant.<br/><br/>
+    <font color="#00c853"><u>Arme à sous-munitions:</u></font> Munition classique conçue pour disperser ou libérer des sous-munitions explosives dont chacune pèse moins de vingt (20) kilogrammes et comprend ces sous-munitions explosives.<br/><br/>
+    <font color="#00c853"><u>Arme biologique:</u></font> Arme utilisant des vecteurs ou engins qui emportent des agents biologiques ou micro-organismes pathogènes vers une cible, destinés à entraîner chez les êtres humains une incapacité ou la mort.<br/><br/>
+    <font color="#00c853"><u>Arme blanche:</u></font> Toute arme dont l’action perforante, tranchante ou brisante n’est due qu’à la force humaine ou à un mécanisme auquel elle a été transmise, à l’exclusion d’une explosion.<br/><br/>
+    <font color="#00c853"><u>Armes chimiques:</u></font> Eléments ci-après, pris ensemble ou séparément:<br/><br/>
+    \t<font color="#00c853">•</font> Les produits chimiques toxiques et leurs précurseurs, à l’exception de ceux destinés à des fins non interdites par la présente loi, aussi longtemps que le type et la quantité concernés sont compatibles avec de telles fins;<br/><br/>
+    \t<font color="#00c853">•</font> Les munitions et dispositif spécifiquement conçus pour provoquer la mort ou d’autres dommages par l’action toxique des produits chimiques;<br/><br/>
+    \t<font color="#00c853">•</font Tout matériel spécifiquement conçu pour être utilisé en liaison directe avec l’emploi des munitions et dispositif.<br/><br/>
+    <font color="#00c853"><u>Arme de chasse:</u></font> Arme à feu utilisée pour la chasse au gibier, la chasse sportive et non classée comme arme de guerre ou arme de défense.<br/><br/>
+    <font color="#00c853"><u>Arme de défense:</u></font> Arme individuelle de petit calibre de fabrication industrielle utilisant les munitions réelles destinées par nature à tuer, blesser, neutraliser ou à provoquer une incapacité.<br/><br/>
+    <font color="#00c853"><u>Arme de guerre:</u></font> Toute arme, munition ou élément d’armes conventionnels conçus pour, ou, destinés à la guerre.<br/><br/>
+    <font color="#00c853"><u>Arme spécifique de guerre:</u></font> Arme dont la mise en œuvre concourt ou intègre la manœuvre interarmées de la troisième dimension terre, air, mer.<br/><br/>
+    <font color="#00c853"><u>Armurerie:</u></font> Lieu de fabrication, de commerce, d’échange, de location, de réparation ou de transformation d’armes, d’éléments d’armes et de munitions.<br/><br/>
+    <font color="#00c853"><u>Certificat de destination finale et de non réexportation:</u></font> Document utilisé pour connaître, contrôler et certifier l’utilisateur final et l’utilisation finale avant que la licence d’importation ou d’exportation ne soit accordée par les autorités compétentes.<br/><br/>
+    <font color="#00c853"><u>Certificat de visiteur:</u></font> Document qui autorise, à titre temporaire, un visiteur et pour la durée de son séjour dans un Etat, à faire entrer ou transiter et, le cas échéant, à utiliser ses armes à des fins déterminées par l’organe national compétent.<br/><br/>
+    <font color="#00c853"><u>Corps paramilitaires:</u></font> Ensemble formé du personnel de la Douane, des Eaux et Forêts et de l’Administration Pénitentiaire.<br/><br/>
+    <font color="#00c853"><u>Courtage:</u></font> Activité qui met en relation, organise ou facilite la conclusion des transactions portant sur les armes et munitions, en échange d’un avantage financier ou autre.<br/><br/>
+    <font color="#00c853"><u>Destruction:</u></font> Processus de conversion définitive d’une arme, d’une munition et d’un explosif dans un état d’inertie ne lui permettant plus de fonctionner comme lors de sa conception.<br/><br/>
+    <font color="#00c853"><u>Dispositif de dispersion radiologique:</u></font> Tout engin détonant des matériaux radioactifs destinés à être répandus en poussière lors de l’explosion.<br/><br/>
+    <font color="#00c853"><u>Elément d’arme:</u></font> Partie d’une arme essentielle à son fonctionnement, notamment le canon, la carcasse, la culasse, le système de fermeture, le barillet, la conversion, y compris les systèmes d’alimentation qui leur sont assimilés.<br/><br/>
+    <font color="#00c853"><u>Elément de munition:</u></font> Partie essentielle d’une munition telle que projectile, amorce, douille amorcée, douille chargée, douille amorcée et chargée.<br/><br/>
+    <font color="#00c853"><u>Etat fournisseur:</u></font> Etat qui fabrique, ou approvisionne l’Etat acquéreur en armes et munitions ou qui, après en avoir acquis la propriété conformément aux accords internationaux, les cède à un nouvel Etat acquéreur.<br/><br/>
+    <font color="#00c853"><u>Fabrication d’un produit chimique:</u></font> Obtention d’un corps par réaction chimique.<br/><br/>
+    <font color="#00c853"><u>Fins non interdites:</u></font><br/><br/>
+    \t• Fins industrielles, agricoles, de recherche, médicales, pharmaceutiques ou autres fins pacifiques;<br/><br/>
+    \t• Fins de protection, ayant un rapport direct avec la protection contre les produits toxiques et la protection contre les armes chimiques;<br/><br/>
+    \t• Fins militaires sans rapport avec l’emploi d’armes chimiques et qui ne sont pas tributaires de l’emploi, en tant que moyen de guerre, des propriétés toxiques de produits chimiques;<br/><br/>
+    \t• Fins de maintien de l’ordre public, y compris de lutte antiémeute sur le plan intérieur.<br/><br/>
+    <font color="#00c853"><u>Gaz asphyxiant:</u></font> Gaz causant l’œdème pulmonaire qui asphyxie la victime.<br/><br/>
+    <font color="#00c853"><u>Gaz toxique:</u></font> Gaz dont les propriétés toxiques sont utilisées comme arme lors des combats, ou contre une population civile.<br/><br/>
+    <font color="#00c853"><u>Installation de fabrication d’armes chimiques:</u></font> Tout matériel ou bâtiment abritant un équipement conçu, construit ou utilisé pour la fabrication d’armes chimiques.<br/><br/>
+    <font color="#00c853"><u>Installations nucléaires:</u></font> Installations d’irradiation, d’extraction et de transformation des matières premières, notamment les mines, les substances radioactives, les installations de gestion des déchets radioactifs et tout autre endroit dans lequel des matières radioactives sont produites, transformées, utilisées, manipulées, entreposées ou stockées définitivement, à une échelle telle que la protection et la sûreté soient prises en considération.<br/><br/>
+    <font color="#00c853"><u>Marquage:</u></font> Inscription sur une arme ou une munition permettant son identification.<br/><br/>
+    <font color="#00c853"><u>Matières nucléaires:</u></font> Eléments susceptibles d’être utilisés directement ou indirectement pour la fabrication d’une arme nucléaire à savoir: le plutonium, l’uranium enrichi en uranium 235, l’uranium 233 et le thorium.<br/><br/>
+    <font color="#00c853"><u>Munition:</u></font> Ensemble de la cartouche et ses composantes, y compris les étuis, les amorces, la poudre propulsive, les balles ou les projectiles utilisés dans une arme à feu.<br/><br/>
+    <font color="#00c853"><u>Organe national compétent:</u></font> Structure chargée du contrôle et du suivi de la mise en œuvre des conventions internationales, de la législation et de la réglementation nationales relatives aux armes et munitions.<br/><br/>
+    <font color="#00c853"><u>Port d’arme:</u></font> Fait d’avoir une arme sur soi.<br/><br/>
+    <font color="#00c853"><u>Poudre:</u></font> Mélange déflagrant de nitrate de potassium en poudre, aussi appelé salpêtre, de charbon et de soufre, utilisé comme des matières explosives.<br/><br/>
+    <font color="#00c853"><u>Précurseur:</u></font> Tout réactif chimique qui entre à un stade quelconque, dans la fabrication d’un produit chimique toxique, quel que soit le procédé utilisé.<br/><br/>
+    <font color="#00c853"><u>Produit chimique organique défini:</u></font> Tout produit chimique à la classe des composés chimiques qui comprend tous les composés du carbone, à l’exception des oxydes et des sulfures de carbone, ainsi que des carbones de métaux, sauf:<br/><br/>
+    \t• Les oligomères, qu’ils contiennent ou non du phosphore, du soufre ou du fluor;<br/><br/>
+    \t• Les produits chimiques qui ne contiennent que du carbone et du métal.<br/><br/>
+    <font color="#00c853"><u>Produit chimique toxique:</u></font> Tout produit chimique qui, par son action chimique sur des processus biologiques, peut provoquer chez les êtres humains ou les animaux, la mort, une incapacité temporaire ou des dommages permanents.<br/><br/>
+    <font color="#00c853"><u>Produits fissiles spéciaux:</u></font> Tout produit contenant le plutonium 239, l’uranium 233 et l’uranium enrichi en isotope 235 ou 233 à l’exception des matières brutes.<br/><br/>
+    <font color="#00c853"><u>Restes d’armes à sous-munitions:</u></font> Armes à sous-munitions ayant raté, armes à sous-munitions abandonnées, sous-munitions non explosées et petites bombes explosives non explosées.<br/><br/>
+    <font color="#00c853"><u>Sous-munition explosive:</u></font> Munition classique qui, pour réaliser sa fonction, est dispersée ou libérée par une arme à sous-munitions et est conçue pour fonctionner en faisant détoner une charge explosive avant l’impact, au moment de l’impact, ou après celui-ci.<br/><br/>
+    <font color="#00c853"><u>Sous-munition non explosée:</u></font> Sous-munition explosive qui a été dispersée ou libérée par une arme à sous-munitions, ou s’en est séparée de toute autre manière et qui aurait dû exploser mais ne l’a pas été.<br/><br/>
+    <font color="#00c853"><u>Substance explosive:</u></font> Substance ou mélange de substances pouvant, isolément, produire par une réaction chimique un gaz dont la température, la pression et la vitesse de propagation sont susceptibles de causer un dommage au milieu environnant.<br/><br/>
+    <font color="#00c853"><u>Traçabilité:</u></font> Possibilité de suivre par l’identification de leurs détenteurs successifs depuis leur fabrication jusqu’à leur destruction ou leur neutralisation, une arme à feu et ses éléments numérotés.<br/><br/>
+    <font color="#00c853"><u>Traitement d’un produit chimique:</u></font> Opération physique telle que la préparation, l’extraction et la purification, où le produit n’est pas transformé en une autre espèce chimique.<br/><br/>
+    <font color="#00c853"><u>Transfert:</u></font> Importation, exportation, transit, transbordement et transport ou tout autre mouvement, quel qu’il soit, vers, sur et à partir du territoire national, d’armes, de leurs munitions et de toutes pièces et composantes pouvant servir à leur fabrication, réparation et assemblage.<br/><br/>
+    <font color="#00c853"><u>Transfert d’armes à sous-munitions:</u></font> Retrait ou introduction d’armes à sous- munitions du ou sur le territoire national. Il désigne également le transfert du droit de propriété et du contrôle sur les armes à sous-munitions.<br/><br/>
+    <font color="#00c853"><u>Toxine:</u></font> Sous-produits toxiques de plante, ou micro-organisme pouvant entraîner chez l’être humain, une incapacité ou la mort et susceptibles d’être utilisés comme agent biologique.<br/><br/>
+    <font color="#00c853"><u>Vecteur:</u></font> Organisme utilisé pour transporter des agents pathogènes et biologiques vers sa cible.
+  ]]></string>
+  <string name="article3cra">
+    Le matériel de guerre, les armes, les munitions et les éléments d’armes sont classés en huit (08) catégories:\n\n
+    \t•1ere catégorie: Armes à feu et leurs munitions conçues pour la guerre;\n\n
+    \t•2ème catégorie: Armes spécifiques de guerre;\n\n
+    \t•3ème catégorie: Armes nucléaires, biologiques, chimiques et matériel de lutte contre les intoxications à gaz;\n\n
+    \t•4ème catégorie: Armes à feu et leurs munitions dites de défense;\n\n
+    \t•5ème catégorie: Armes de chasse et leurs munitions;\n\n
+    \t•6ème catégorie: Armes blanches et celles à effet sonorisant;\n\n
+    \t•7ème catégorie: Armes de tir et de salon;
+    \t•8ème catégorie: Armes anciennes et de collection.\n
+  </string>
+  <string name="article4cra">
+    \t(1) Le Ministre chargé de la Défense est habilité à procéder à la classification des armes et munitions, après avis de l’organe national compétent dont l’organisation et le fonctionnement sont fixés par voie réglementaire.\n\n
+    \t(2) La nomenclature, les caractéristiques et la destination spécifiques à chacune des armes et munitions relevant de l’une des catégories visées à l’article 3 ci-dessus sont déterminées par voie réglementaire.\n
+  </string>
+  <string name="article5cra">
+    Les armes à feu de fabrication artisanale sont non classées et interdites.\n
+  </string>
+  <string name="article6cra">
+    \t(1) Le transit sur le territoire national des armes, des munitions et de leurs accessoires est subordonné à l’autorisation préalable du Président de la République.\n\n
+    \t(2) Les conditions d’obtention de l’autorisation visée à l’alinéa 1 ci- dessus sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article7cra">
+    \t(1) L’introduction sur le territoire national, la fabrication, la transformation, le transport, l’entreposage, l’acquisition, la vente, la cession, la détention, le port, l’exportation, le courtage des armes de 1ère et 2ème catégories et leurs munitions sont soumis à l’autorisation préalable du Président de la République.\n\n
+    \t(2) La procédure et les conditions d’obtention de l’autorisation visée à l’alinéa 1 ci-dessus sont fixées par voie réglementaire.\n\n
+    \t(3) Les armes de 1ère et 2ère catégories, ainsi que leurs munitions acquises pour les forces de défense, de sécurité et les corps paramilitaires ne peuvent être exportées, cédées, transmises à quiconque sans l’accord écrit préalable du Gouvernement de l’Etat fournisseur.\n
+  </string>
+  <string name="article8cra">
+    Le Président de la République peut habiliter le Ministre chargé de la Défense et les responsables chargés des services de défense et de sécurité rattachés à la Présidence de la République, à délivrer le certificat de destination finale et de non réexportation.\n
+  </string>
+  <string name="article9cra">
+    Le transport des armes et munitions de 1ère et 2ème catégories relève de la compétence des autorités visées à l’article 8 ci-dessus.\n
+  </string>
+  <string name="article10cra">
+    \t(1) Le transfert, la fabrication, l’acquisition d’armes nucléaires ou autre dispositif nucléaire explosif vers, sur ou à partir du territoire national sont interdits.\n\n
+    \t(2) Toutefois, l’interdiction visée à l’alinéa 1 ci-dessus ne doit pas porter atteinte au droit de développer la fecherche, la production ou l’utilisation de l’énergie nucléaire à des fins pacifiques.\n
+  </string>
+  <string name="article11cra">
+    \t(1) Les matières nucléaires, objet de transfert vers ou à partir du territoire national, doivent être protégées pendant le transport, conformément à la réglementation en vigueur.\n\n
+    \t(2) Le transport, le transbordement, le transit, l’expédition et la réception des matières radioactives sont soumis à l’autorisation préalable l’organisme compétent en matière de radioprotection, conformément à la réglementation en vigueur.\n\n
+    \t(3) Le titulaire de l’autorisation visée à l’alinéa 2 ci-dessus, est le principal responsable de la sûreté et de la sécurité des matières radioactives en cours de transport.\n
+  </string>
+  <string name="article12cra">
+    Les matières brutes ou les produits fissiles spéciaux, les équipements ou matières spécialement conçus ou préparés pour le traitement, l’utilisation ou la production de produits fissiles spéciaux, ne peuvent faire l’objet d’un transfert sur ou à partir du territoire national vers un Etat non doté d’armes nucléaires, à moins que lesdites matières brutes ou lesdits produits fissiles spéciaux ne soient soumis aux garanties internationales requises à cet effet.\n
+  </string>
+  <string name="article13cra">
+    \t(1) Le système national de comptabilité et de contrôle des matières nucléaires est établi et conservé par l’organisme compétent en matière de radioprotection.\n\n
+    \t(2) Les modalités de comptabilité et de contrôle desdites matières nucléaires sont définies par voie réglementaire.\n
+  </string>
+  <string name="article14cra">
+    Les informations relatives aux armes nucléaires ou autres dispositifs nucléaires, aux matières brutes ou produits fissiles spéciaux, aux équipements ou matières spécialement conçus ou préparés pour le traitement, l’utilisation ou la production de produits fissiles spéciaux revêtent le caractère secret défense.\n
+  </string>
+  <string name="article15cra">
+    \t(1) Sont interdits, la mise au point, la fabrication, le stockage, l’acquisition, le transfert et la conservation:\n\n
+    \t\t• Des agents microbiologiques ou autres agents biologiques, ainsi que des toxines quels qu’en soient l’origine et/ou le mode de production, le type et la quantité, qui ne sont pas destinés à des fins prophylactiques, de protection ou à d’autres fins pacifiques;\n\n
+    \t\t• Des armes, équipements ou vecteurs destinés à l’emploi de tels agents ou toxines à des fins hostiles ou dans des conflits armés.\n\n
+    \t(2) Toutefois, l’interdiction visée à l’alinéa 1 ci-dessus ne doit pas porter atteinte au développement économique, scientifique et technique dans le domaine des activités bactériologiques, y compris l’échange international d’agents bactériologiques et de toxines, ainsi que du matériel servant à la mise au point, à l’emploi ou à la production d’agents biologiques et de toxines à des fins pacifiques.\n
+  </string>
+  <string name="article16cra">
+    \t• La mise au point, la fabrication, le stockage, l’emploi, la détention, la conservation, l’acquisition, la cession, l’exploitation, l’importation, l’exportation, le transit, le commerce et le courtage d’armes chimiques;\n\n
+    \t• L’initiative des préparatifs, ou la participation à ceux-ci, en vue d’utiliser des armes chimiques, d’aider, d’encourager, d’inciter à entreprendre toute activité y afférente;\n\n
+    \t•  L’emploi d’agents de lutte antiémeute en tant que moyen de guerre;\n\n
+    \t•  La conception, la construction ou l’utilisation,\n\n
+    \t\t  - D’une installation, y compris son matériel de fabrication, destinée exclusivement à la fabrication de munitions chimiques non 3 g remplies, ou de toute autre pièce non chimique ou du matériel Êée spécifiquement conçu pour être utilisé en liaison directe avec se l’emploi d’armes chimiques;\n\n
+    \t\t  - D’une installation de fabrication de produits chimiques inscrits au tableau 1 des produits chimiques toxiques et leurs précurseurs à d’autres fins que celles médicales, pharmaceutiques, de recherche ou de protection contre les armes chimiques;\n\n
+    \t• La modification d’installations ou de matériel de toute nature, dans le but d’exercer une activité interdite par la présente loi;
+    \t• La communication de toute information, le transfert de tout matériel de fabrication d’armes chimiques ou de tout document ou support de technologie et d’information, destiné à permettre ou à faciliter la violation des dispositions de la présente loi.\n
+  </string>
+  <string name="article17cra">
+    \t(1) Les produits chimiques toxiques et leurs précurseurs sont classés en tableaux 1, 2 et 3, en fonction de leur degré de dangerosité, conformément aux conventions internationales.\n\n
+    (2) Le classement des produits chimiques toxiques et leurs précurseurs autres que ceux prévus dans les tableaux visés à l’alinéa 1 ci- dessus est fixé par voie réglementaire sur proposition de l’organe national compétent.\n\n
+    (3) La classification des produits chimiques toxiques et leurs précurseurs dans les tableaux visés à l’alinéa 1 ci-dessus est déterminée par voie réglementaire.\n
+  </string>
+  <string name="article18cra">
+    \t(1) La mise au point, la fabrication, l’acquisition, la cession, l’utilisation, la détention, la conservation, le stockage, l’importation, l’exportation, le transit, le commerce et le courtage des produits chimiques toxiques inscrits au tableau 1 visé à l’article 16 ci-dessus sont interdits, sauf à des fins médicales, pharmaceutiques, de recherche ou de protection et dans des quantités limitées à ce que peuvent justifier ces fins.\n\n
+    \t(2) Lorsqu’ils sont utilisés à des fins non interdites, la mise au point, la fabrication, l’acquisition et la cession, lutilisation, la détention, la conservation où le stockage des produits chimiques toxiques inscrits au tableau 1 sont soumis à l’autorisation de l’organe national compétent.\n
+  </string>
+  <string name="article19cra">
+    \t(1) La fabrication à des fins pharmaceutiques, médicales, de recherche ou de protection des produits chimiques toxiques inscrits au tableau 1 est subordonnée à l’autorisation de l’organe national compétent et ne peut être réalisée que dans une seule installation.\n\n
+    \t(2) La fabrication, le traitement et l’utilisation de produits chimiques toxiques inscrits aux tableaux 2 et 3, sont soumis à déclaration à l’organe national compétent.\n
+    \t(3) Les produits visés à l’alinéa 1 ci-dessus peuvent être également fabriqués dans la limite de la quantité globale maximale annuelle:\n\n
+    \t\t• Aux seules fins de protection, dans une seule installation en plus de celle mentionnée à l’alinéa 1 ci-dessus;\n\n
+    \t\t• À des fins médicales, pharmaceutiques ou de recherche, dans d’autres installations.\n\n
+    Ces installations sont soumises à l’autorisation de l’organe national compétent.\n\n
+    \t(4) Les produits visés à l’alinéa 2 ci-dessus ne sont pas soumis à cette déclaration, lorsque les mélanges comportant une concentration de ces produits chimiques sont inférieurs à des taux déterminés.\n\n
+    \t(5) Les taux et quantité visés au présent paragraphe sont fixés par voie réglementaire.\n
+  </string>
+  <string name="article20cra">
+    \t(1) Les laboratoires qui fabriquent par synthèse des produits chimiques inscrits au tableau 1 à des fins médicales, pharmaceutiques et de recherche, dans la limite de la quantité réglementaire annuelle et les installations de traitement ou d’utilisation des produits chimiques toxiques inscrits au tableau 1, sont soumis à déclaration à l’organe national compétent.\n\n
+    \t(2) Les installations de fabrication, de traitement ou d’utilisation de produits chimiques toxiques inscrits aux tableaux 2 et 3 sont soumises à déclaration à l’organe national compétent lorsqu’elles fabriquent, traitent ou utilisent des quantités supérieures à des seuils déterminés par voie réglementaire.\n\n
+    Ces installations ne sont pas soumises à déclaration lorsqu’elles ne fabriquent, traitent ou utilisent que des mélanges comportant une concentration de ces produits inférieure à des taux déterminés par voie réglementaire.\n\n
+    (3) Les installations de fabrication par synthèse de produits chimiques toxiques organiques définis qui ne sont pas inscrits à l’un des tableaux visés ci-dessus, sont soumises à déclaration à l’organe national compétent, lorsqu’elles fabriquent des quantités supérieures à des seuils déterminés par voie réglementaire.\n\n
+    Ces installations ne sont pas soumises à déclaration lorsqu’elles ne fabriquent que des mélanges comportant une concentration de ces produits inférieure à des taux déterminés par voie réglementaire.\n
+  </string>
+  <string name="article21cra">
+    Les dispositions du présent paragraphe ne s’appliquent pas aux activités de production des hydrocarbures ou des substances explosive.\n
+  </string>
+  <string name="article22cra">
+    Les exploitants des installations de fabrication à des fins pharmaceutiques, médicales, de recherche ou de protection des produits chimiques indiquent chaque année à l’organe national compétent:\n\n
+    \t• Les quantités des produits chimiques toxiques inscrits au tableau 1 acquises, cédées, utilisées ou stockées et les quantités de précurseurs inscrits à l’un des tableaux utilisées pour la fabrication de ces produits;\n\n
+    \t• Les quantités des produits chimiques toxiques inscrits au tableau 1 qu’ils prévoient de fabriquer au cours de l’année suivante.\n
+  </string>
+  <string name="article23cra">
+    \t(1) L’importation, l’exportation et le transit des produits inscrits au tableau 1 sont interdits lorsqu’ils sont en provenance ou à destination d’un Etat non partie à la Convention sur l’interdiction de la mise au point, de la fabrication, du stockage et de l’emploi des armes chimiques et sur leur destruction.\n\n
+    Dans les autres cas, ces opérations sont soumises à l’autorisation de l’organe national compétent. Sans préjudice des dispositions du code douanier, la réalisation des opérations d’importation et d’exportation autorisées est soumise à déclaration préalable à l’organe national compétent.\n\n
+    \t(2) Le commerce et le courtage des produits visés à l’alinéa 1 ci- dessus sont:\n\n
+    \t\ta) Interdits, lorsque ces opérations sont réalisées en provenance d’un Etat non partie à la Convention sur l’interdiction de la mise au point, de la fabrication, du stockage et de l’emploi d’armes chimiques et sur leur destruction ou à destination d’un tel Etat;\n\n
+    \t\tb) Soumises à l’autorisation de l’organe national compétent, lorsqu’elles sont réalisées en provenance ou à destination d’un Etat partie à la Convention visée à l’alinéa 1 ci-dessus.\n\n
+    \t(3) L’exportation, le commerce et le courtage des produits inscrits au tableau 2 en provenance ou à destination d’un Etat non partie à la Convention visée à l’alinéa 1 ci-dessus sont interdits.\n\n
+    \t(4) L’importation, l’exportation, le commerce et le courtage des produits inscrits au tableau 3 en provenance ou à destination d’un Etat non partie à la Convention visée à l’alinéa 1 ci-dessus sont soumis à l’autorisation de l’organe national compétent.\n\n
+    \t(5) L’autorisation visée à l’alinéa 4 ci-dessus est refusée lorsque l’Etat de destination ne fournit pas, sur demande de l’organe national, un certificat de destination finale et de non réexportation.\n
+  </string>
+  <string name="article24cra">
+    \t(1) Les autorisations d’importation ou d’exportation mentionnées au présent paragraphe peuvent être suspendues ou abrogées, soit pour la mise en œuvre de mesures prises en application d’un accord international ratifié, soit lorsque la réalisation de l’opération peut porter atteinte aux intérêts de l’Etat ou à la défense nationale.\n\n
+    \t(2) Les conditions de délivrance des autorisations et les conditions de validité des déclarations visées au présent paragraphe sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article25cra">
+    \t(1) Toute information donnée en vertu du présent paragraphe est classée secret défense.\n\n
+    \t(2) La communication d’une information classée secret défense se fait conformément à la procédure réglementaire en vigueur.\n
+  </string>
+  <string name="article26cra">
+    L’emploi de gaz asphyxiants, toxiques ou similaires, ainsi que de tous liquides, matières ou procédés analogues est interdit, y compris lors de la répression des troubles à l’ordre public.\n
+  </string>
+  <string name="article27cra">
+    \t(1) Les vérifications internationales sont effectuées par des inspecteurs habilités par l’Organisation pour l’interdiction des Armes Chimiques et agréées par l’organe national.\n\n
+    \t(2) Les contrôles nationaux sont effectués par des inspecteurs habilités par l’organe national compétent.\n\n
+    (3) Les modalités de contrôle national sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article28cra">
+    \t(1) L’introduction sur le territoire national, la fabrication, la transformation, la réparation, l’acquisition, l’achat, la détention, le transport, la cession, la vente, l’exportation et le commerce d’armes et de munitions de 4ème et 5ème catégories sont soumis à l’autorisation préalable du Ministre chargé de l’Administration du Territoire.\n\n
+    \t(2) L’autorisation visée à l’alinéa 1 ci-dessus peut être retirée.\n\n
+    \t(3) Les conditions et les modalités d’obtention et de retrait de l’autorisation visée à l’alinéa 1 ci-dessus, sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article29cra">
+    Nul ne peut bénéficier de plus d’une autorisation d’acquisition, d’achat et de détention d’une arme de 4ème ou de 5ème catégorie.\n
+  </string>
+  <string name="article30cra">
+    L’autorisation visée à l’article 29 ci-dessus ne peut être accordée à une personne âgée de moins de vingt-et-un (21) ans, même émancipée, ni à un majeur incapable.\n
+  </string>
+  <string name="article31cra">
+     La fabrication des armes de 6ème catégorie utilisant la poudre est soumise à l’autorisation préalable du Préfet territorialement compétent.\n
+  </string>
+  <string name="article32cra">
+    \t(1) L’usage d’armes de 6ème catégorie n’utilisant que la poudre est admis à l’occasion des cérémonies funéraires et culturelles.\n\n
+    \t(2) L’usage visé à l’alinéa 1 ci-dessus est soumis à la déclaration préalable à l’autorité administrative territorialement compétente.\n\n
+    \t(3) L’usage d’armes à feu pendant les cérémonies funéraires ou culturelles est interdit.\n
+  </string>
+  <string name="article33cra">
+    Les armes de 6ème, 7ème et 8ème catégories et leurs munitions sont en vente libre, sous réserve du respect de la réglementation en vigueur.\n
+  </string>
+  <string name="article34cra">
+    La mise au point, l’acquisition, l’emploi, le stockage, la conservation, la fabrication, la commercialisation et le transfert des armes à sous-munitions sont interdits.\n
+  </string>
+  <string name="article35cra">
+    \t(1) Nonobstant les dispositions de l’article 34 ci-dessus, sont autorisés:\n\n
+    \t\ta) La conservation ou l’acquisition d’un nombre limité d’armes à sous-munitions et de sous-munitions explosives pour le développement et la formation relatifs aux techniques de détection, d’enlèvement ou de destruction des armes à sous-munitions et des sous-munitions explosives, ou pour le développement de contre-mesures relatives aux armes à sous-munitions;\n\n
+    \t\tb) Le transfert d’armes à sous-munitions, à un autre État aux fins de leur destruction, ou pour tous les buts décrits à l’alinéa 1(a) ci-dessus.\n\n
+    \t(2) La quantité de sous-munitions explosives conservées ou acquises ne dépasse pas le nombre minimum absolument nécessaire aux fins décrites à l’alinéa 1(a) ci-dessus.\n
+  </string>
+  <string name="article36cra">
+    Chaque année durant laquelle le Cameroun a conservé, acquis ou transféré à un autre État des armes à sous-munitions ou des sous-munitions explosives aux fins décrites à l’article 35 ci-dessus, le Ministre chargé de la Défense fait tenir au Ministre chargé des Relations Extérieures, au plus tard le 4 avril de l’année suivante, pour transmission au Secrétaire Général des Nations Unies, un rapport détaillé sur l’utilisation actuelle et envisagée des armes à sous-munitions et sous-munitions explosives, ainsi que leurs type, quantité et numéro de lot.\n
+  </string>
+  <string name="article37cra">
+    \t(1) La dépollution et la destruction des restes d’armes à sous-munitions et l’éducation à la réduction des risques sont de la compétence du Ministre en charge de la Défense, après avis de l’organe national compétent.\n\n
+    \t(2) Les modalités de dépollution et de destruction des restes d’armes à sous-munitions et d’éducation à la réduction des risques visés à l’alinéa 1 ci-dessus sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article38cra">
+    Les armes à sous-munitions saisies sur le territoire national sont tenues séparées des munitions conservées, en vue d’un emploi opérationnel, et marquées aux fins de leur destruction.\n
+  </string>
+  <string name="article39cra">
+    Les armes à feu font l’objet, lors de leur fabrication, d’un marquage comportant l’indication du fabricant, du pays ou du lieu de fabrication, de l’année de fabrication, du modèle, du calibre et du numéro de série. Elles font également l’objet, avant leur mise sur le marché, de l’apposition des poinçons d’épreuve.\n
+  </string>
+  <string name="article40cra">
+    Le conditionnement élémentaire de munitions complètes destinées aux armes à feu fait l’objet, avant leur mise sur le marché, d’un marquage comportant l’indication du nom du fabricant, du numéro d’identification du lot, du calibre et du type de munitions.\n\n
+    Avant leur mise en service sur le territoire national, elles doivent faire l’objet de l’apposition des poinçons représentant un code de gestion national.\n
+  </string>
+  <string name="article41cra">
+    \t(1) Le marquage, lors de la fabrication, est apposé sur un ou plusieurs éléments de l’arme à feu et doit être lisible sans le démontage de celle-ci.\n\n
+    \t(2) Le numéro de série figure au moins sur la carcasse de l’arme.\n\n
+    \t(3) Le marquage peut également consister en l’apposition d’un code alphanumérique, à condition que celui-ci permette de déterminer que l’arme ou les munitions ont été fabriquées par un pays tiers.\n\n
+    \t(4) Le poinçon d’épreuve est apposé sur toutes les pièces fortement sollicitées par l’épreuve.\n
+  </string>
+  <string name="article42cra">
+    Le commerce des armes de 4ème et 5ème catégories et leurs munitions sur le territoire national est soumis à l’autorisation du Ministre chargé de l’Administration Territoriale suivant les conditions et modalités fixées par voie réglementaire.\n
+  </string>
+  <string name="article43cra">
+    L’importation des armes de 4ème et 5ème catégories et leurs munitions sur le territoire national est soumise à l’autorisation du Ministre chargé de l’Administration Territoriale, après avis du Ministre chargé du Commerce.\n
+  </string>
+  <string name="article44cra">
+    \t(1) Les armes de 4ème et 5ème catégories et leurs munitions sont stockées et entreposées dans des armureries.\n\n
+    \t(2) Les armureries visées à l’alinéa 1 ci-dessus doivent être ouvertes à toute réquisition et tout contrôle des autorités compétentes.\n
+  </string>
+  <string name="article45cra">
+    \t(1) Le responsable de l’armurerie tient un fichier numérique et un fichier physique de toutes les opérations effectuées.\n\n
+    \t(2) Les informations consignées dans les fichiers visés à l’alinéa 1 ci-dessus comportent notamment:\n\n
+    \t\t• Les dates d’entrée et de sortie;\n\n
+    \t\t• Les caractéristiques des armes et munitions;\n\n
+    \t\t• La quantité stockée;\n\n
+    \t\t• La quantité vendue;\n\n
+    \t\t• Les diverses autorisations relatives aux stocks;\n\n
+    \t\t• Les informations relatives aux clients notamment, les autorisations, l’identification, le domicile et/ou la résidence.\n\n
+    \t(3) Une copie de chaque fichier est adressée tous les six (6) mois au Président du Tribunal de Première Instance, à l’autorité administrative et au responsable du service déconcentré en charge du Commerce territorialement compétents.\n
+  </string>
+  <string name="article46cra">
+    Il est procédé une fois par trimestre, par les administrations compétentes, aux contrôles des armureries, suivant les conditions et modalités fixées par voie réglementaire.\n
+  </string>
+  <string name="article47cra">
+    \t(1) En cas de vol, de perte ou de sinistre survenu dans une armurerie, le responsable du dépôt rend compte sans délai au Ministre chargé de l’Administration Territoriale, par l’intermédiaire de l’autorité administrative locale.\n\n
+    (2) Les responsables de la Défense, de la Sécurité et de la Justice en sont informés.\n
+  </string>
+  <string name="article48cra">
+    Les conditions de stockage et d’entreposage, ainsi que les modalités de contrôle visées à l’article 45 ci-dessus, sont fixées par voie réglementaire.\n
+  </string>
+  <string name="article49cra">
+    \t(1) Est puni d’un emprisonnement de quinze (15) à vingt-cinq (25) ans et d’une amende de cinq millions (5.000.000) à cent millions (100.000.000) de francs CFA celui qui, sans autorisation, se livre à la fabrication où à la production d’armes, de munitions ou d’éléments d’armes de la 1ère et 2ème catégories.\n\n
+    \t(2) Est puni d’un emprisonnement de cinq (5) à dix (10) ans et d’une amende de un million (1.000.000) à vingt millions (20.000.000) de francs CFA, celui qui, sans autorisation, se livre à la fabrication d’armes,de munitions ou d’éléments d’armes de la 4ème catégorie.\n\n
+    \t(3) L’emprisonnement est de deux (2) à cinq (5) ans et l’amende de cinq cent mille (500.000) à dix millions (10.000.000) de francs CFA, lorsque les armes, les munitions ou les éléments d’armes, sont de la 5ème catégorie.\n\n
+    \t(4) Les dispositions des alinéas ci-dessus ne s’appliquent pas aux poudres ou substances explosives utilisées à des fins culturelles.\n
+  </string>
+  <string name="article50cra">
+    \t(1) Est puni d’un emprisonnement de quinze (15) à vingt-cinq (25) ans et d’une amende de cinq millions (5.000.000) à cinquante millions (50.000.000) de FCFA celui qui, sans autorisation, introduit sur le territoire national, transporte, importe, transforme ou entrepose des armes, des munitions ou des éléments d’armes de 1ère et 2ème catégories.\n\n
+    \t(2) L’emprisonnement est de cinq (5) à dix (10) ans et l’amende de un million (1.000.000) à vingt millions (20.000.000) de francs CFA, lorsque les armes, les munitions ou éléments d’armes sont de la 4ème catégorie.\n\n
+    \t(3) Est puni de la peine visée à l’alinéa 2 ci-dessus, celui qui, sans autorisation, introduit sur le territoire national, transporte ou entrepose des poudres ou substances explosives.\n\n
+    \t(4) L’emprisonnement est de deux (2) à cinq (5) ans et l’amende de cinq cent mille (500.000) à dix millions (10.000.000) de francs CFA, lorsque les armes, les munitions ou éléments d’armes sont de la 5ème catégorie.\n
+  </string>
+  <string name="article51cra">
+    \t(1) Est puni d’un emprisonnement de dix (10) à trente (30) ans et d’une amende de un million (1.000.000) à dix millions (10.000.000) de francs CFA, celui qui, sans autorisation, acquiert, détient, porte, cède, vend ou fait le courtage des armes, des munitions ou éléments d’armes de 1ère et 2ème catégories.\n\n
+    \t(2) Est puni de la peine visée à l’alinéa 1 ci-dessus, celui qui, sans autorisation acquiert, détient, cède ou vend des substances explosives.\n\n
+    \t(3) L’emprisonnement est de deux (2) à cinq (5) ans et l’amende de cinq cent mille (500.000) à cinq millions (5.000.000) de francs CFA, lorsque les armes, les munitions ou éléments d’armes sont de la 4ème catégorie.\n\n
+    \t(4) L’emprisonnement est de un (1) à deux (2) ans et l’amende de cinq cent mille (500.000) à deux millions (2.000.000) de francs CFA, lorsque les armes, les munitions ou les éléments d’armes sont de la 5ème catégorie.\n
+  </string>
+  <string name="article52cra">
+    Est puni d’un emprisonnement de trois (3) mois à un (1) an et d’une amende de cent mille (100.000) à cinq cent mille (500.000) CFA celui qui fait usage d’une arme à feu pendant les cérémonies funéraires ou culturelles.\n
+  </string>
+  <string name="article53cra">
+    Est puni d’un emprisonnement de un (1) à deux (2) ans et d’une amende de cinq cent mille (500.000) à deux millions (2.000.000) de francs CFA celui qui, bénéficiant du permis requis pour la détention d’une arme d’une catégorie déterminée, est trouvé porteur d’une arme d’une catégorie différente.\n
+  </string>
+  <string name="article54cra">
+    Est puni d’un emprisonnement de deux (2) à cinq (5) ans et d’une amende de un million (1.000.000) à dix millions (10.000.000) de francs CFA, celui qui, bénéficiant d’une autorisation d’introduire sur le territoire national ou d’exercer le commerce des armes et munitions:\n\n
+    \t• Cède une ou plusieurs de ces armes et munitions à une personne qui ne justifie pas d’une autorisation d’achat ou d’introduction sur le territoire national dûment délivrée par l’autorité compétente;\n\n
+    \t• Cède à une personne titulaire d’une autorisation requise, une arme dont les caractéristiques ne correspondent pas à celles indiquées dans ladite autorisation.\n
+  </string>
+  <string name="article55cra">
+    \t(1) Est puni d’un emprisonnement de trois (3) à cinq (5) ans et d’une amende de un million (1.000.000) à dix millions (10.000 000) de francs CFA, tout titulaire d’une autorisation d’achat et de permis de port d’arme qui:\n\n
+    \t\t• Prête, cède ou loue son arme à un tiers;\n\n
+    \t\t• Est trouvé porteur ou détenteur d’une arme dont les caractéristiques ne correspondent pas à celles indiquées sur ladite autorisation.\n\n
+    \t(2) La peine prévue à l’alinéa 1 ci-dessus est doublée si:\n\n
+    \t\t• L’arme cédée, prêtée ou louée a servi à commettre un crime ou un délit;\n\n
+    \t\t• Les auteurs sont des militaires, des fonctionnaires de police, de l’administration pénitentiaire, des douanes, des eaux et forêts, ainsi que les agents de toute autre force publique, qui utilisent leurs armes de dotation en dehors de l’exercice normal de leurs fonctions.\n
+  </string>
+  <string name="article56cra">
+    Est puni d’un emprisonnement de deux (2) à dix (10) ans et d’une amende de cinq cent mille (500.000) à dix millions (10.000.000) de francs CFA, celui qui fabrique, vend ou utilise une arme à feu de fabrication artisanale.\n
+  </string>
+  <string name="article57cra">
+    Est puni d’une amende de un million (1.000.000) à vingt millions (20.000.000) de francs CFA, et sans préjudice des poursuites disciplinaires, l’autorité administrative qui:\n\n
+    \t• Délivre des autorisations d’achat en dépassement des quotas légalement prévus;\n\n
+    \t• Délivre un permis de port d’arme à une personne ne remplissant pas les conditions requises;\n\n
+    \t• Ddélivre une autorisation d’achat ou un permis de port d’arme pour une catégorie qui ne relève pas de sa compétence.\n
+  </string>
+  <string name="article58cra">
+    \t(1) Est puni de l’emprisonnement à vie et d’une amende de trente millions (30 000 000) à cinq cent millions (500.000.000) de francs CFA, quiconque met au point, fabrique, emploie:\n\n
+    \t\t• Des armes chimiques;\n\n
+    \t\t• Des munitions chimiques non remplies et du matériel destiné à l’emploi d’armes chimiques;\n\n
+    \t\t• Des produits chimiques à des fins autres qu’industrielles, agricoles, médicales, pharmaceutiques, de recherche ou de protection contre des émissions chimiques volontaires ou accidentelles, ou de maintien de l’ordre.\n\n
+    \t(2) La peine est la mort lorsque les infractions visées à l’alinéa 1 ci-dessus sont commises en bande.\n
+  </string>
+  <string name="article59cra">
+    \t(1) Est puni d’un emprisonnement de quinze (15) à vingt-cinq (25) ans et d’une amende de cinq millions (5 000 000) à cinquante millions (50.000.000) de francs CFA, quiconque stocke, détient, cède, importe, exporte, exploite, fait transiter, fait le commerce ou le courtage:\n\n
+    \t\t• Des armes chimiques;\n\n
+    \t\t• Des produits chimiques à des fins autres qu’industrielles, agricoles, médicales, pharmaceutiques, de recherche ou de protection contre des émissions chimiques volontaires ou accidentelles, ou de maintien de l’ordre.\n\n
+    \t(2) Est puni des peines prévues à l’alinéa 1 ci-dessus, quiconque importe, exporte, fait transiter, fait le commerce ou le courtage de tout matériel de fabrication d’armes chimiques ou tout document ou support de technologie et d’information, destiné à permettre ou à faciliter la fabrication, le stockage, la détention, la cession, l’importation, l’exportation, le transit, le commerce ou le courtage d’armes et produits chimiques non autorisés.\n
+  </string>
+  <string name="article60cra">
+    \t(1) Est puni de l’emprisonnement à vie et d’une amende de trente millions (30 000 000) à cinq cent millions (500.000.000) de francs CFA quiconque conçoit, construit ou utilise:\n\n
+    \t\t• Une installation, y compris son matériel de fabrication, destinée exclusivement à la fabrication de munitions chimiques non remplies, ou de toute autre pièce non chimique où du matériel spécifiquement conçu pour être utilisé en liaison directe avec l’emploi d’armes chimiques;\n\n
+    \t\t• Une installation de fabrication de produits chimiques inscrits au tableau 1 des produits chimiques toxiques et leurs précurseurs à d’autres fins que celles médicales, pharmaceutiques, de recherche où de protection contre les armes chimiques.\n\n
+    (2) Est puni des mêmes peines, quiconque modifie des installations visées à l’alinéa 1 ci-dessus.\n\n
+  </string>
+  <string name="article61cra">
+    Est puni de l’emprisonnement à vie et d’une amende de trente millions (30 000 000) à cinq cent millions (500.000.000) de francs CFA, quiconque dirige ou organise un groupe ayant pour objet l’emploi, la mise au point, la fabrication, le stockage, la détention, la conservation, l’acquisition, la cession, l’importation, l’exportation, le transit, le commerce ou le courtage:\n\n
+    \t• D’armes chimiques;\n\n
+    \t• Des munitions chimiques non remplies et du matériel destiné à l’emploi d’armes chimiques par le détenteur;\n\n
+    \t• Des produits chimiques à des fins autres qu’industrielles, agricoles, médicales, pharmaceutiques, de recherche ou de protection contre des émissions chimiques volontaires où accidentelles, ou de maintien de l’ordre.\n
+  </string>
+  <string name="article62cra">
+    \t(1) Est puni d’un emprisonnement de un (1) à quatre (4) ans, et d’une amende de deux millions (2.000.000) à dix millions (10.000.000) de francs CFA, quiconque s’oppose à la saisie d’une arme chimique ou d’un produit chimique.\n\n
+    \t(2) S’il s’agit d’un groupe, là peine d’emprisonnement est de cinq (05) a 15 ans et l’amende de cinq millions (5 000 000) à vingt millions (20 000 000) de franc CFA. Dans ce cas, des circonstances atténuantes ainsi que le surcis peuvent être accordés.\n\n
+  </string>
+  <string name="article63cra">
+    Est puni d’un emprisonnement de deux (2) à cinq (5) ans et d’une amende de un million (1.000.000) à cinq millions (5.000.000) de francs CFA le détenteur:\n\n
+    \t• D’une arme chimique;\n\n
+    \t• Des munitions chimiques non remplies et du matériel destiné à l’emploi d’armes chimiques;\n\n
+    \t• D’un produit chimique inscrit aux tableaux 1, 2 et 3.\n
+  </string>
+  <string name="article64cra">
+    Est puni d’un emprisonnement de cinq (5) à dix (10) ans et d’une amende de cinq millions (5 000 000) à vingt millions (20 000 000) de francs CFA quiconque:\n\n
+    \t• Exploite sans autorisation une installation de fabrication ou en violation des conditions de cette autorisation, lorsque des produits chimiques inscrits au tableau 1 y sont fabriqués à des fins médicales, pharmaceutiques, de recherche ou de protection;\n\n
+    \t• Importe, exporte, fait transiter, commercialise ou fait le courtage de produits chimiques inscrits au tableau 1, à des fins médicales, pharmaceutiques, de recherche ou de protection, en provenance où à destination d’un Etat non partie à la Convention sur les armes chimiques.\n
+  </string>
+  <string name="article65cra">
+    Est puni d’un emprisonnement de deux (2) à quatre (4) ans et d’une amende de deux millions (2 000 000) à cinq millions (5 000 000) de francs CFA, quiconque:\n\n
+    \t• Met au point, fabrique, acquiert, cède, vend, utilise, détient, conserve ou stocke des produits chimiques inscrits au tableau 1 à des fins médicales, pharmaceutiques, de recherche ou de protection sans autorisation ou en violation des autorisations délivrées;\n\n
+    \t- Importe, exporte ou fait transiter sans autorisation des produits chimiques inscrits au tableau 1, à des fins médicales, pharmaceutiques, de recherche ou de protection en provenance ou à destination d’un Etat non partie à la Convention sur les armes chimiques;\n\n
+    \t• Réexporte, sans autorisation ou en violation de l’autorisation délivrée, des produits chimiques inscrits au tableau 1;\n
+  </string>
+  <string name="article66cra">
+    Est puni d’un emprisonnement de un a) à deux (2) ans et d’une amende de cinq millions (5 000 000) à cent millions Dre 000 000) de francs CFA celui qui:\n\n
+    \t• Pratique le commerce et le courtage, sans autorisation, de produits chimiques inscrits aux tableaux 2 et 3 à destination ou en provenance d’un Etat non partie à la Convention sur les armes chimiques;\n\n
+    \t• Ne fournit pas d’informations annuelles relatives aux quantités de produits chimiques toxiques inscrits au tableau 1 qu’il:\n\n
+    \t\t- A fabriquées, acquises, cédées, vendues, utilisées ou stockées;\n\n
+    \t\t- Prévoit de fabriquer;\n\n
+    \t• Ne fournit pas d’informations annuelles relatives aux quantités de précurseurs inscrits à l’un des trois tableaux il a utilisées pour la fabrication dec ces produits.\n
+  </string>
+  <string name="article67cra">
+    Est puni d’un emprisonnement de trois (3) à cinq (5) ans et d’une amende de cinq millions (5 000 000) à dix millions (10 000 000) de francs CFA, celui qui s’oppose ou fait obstacle aux vérifications internationales.\n
+  </string>
+  <string name="article68cra">
+    Est puni d’un emprisonnement de un (1) à deux (2) ans et d’une amende de deux millions (2 000 000) à cinq millions (5 000 000) de francs CFA, quiconque communique ou divulgue, à une personne non qualifié par la loi, des informations sans l’autorisation;\n\n
+    \t• De la personne concernée ou de ses ayants droit;\n\n
+    \t• Du signataire ou destinataire d’un document provenant de l’organe national compétent.\n
+  </string>
+  <string name="article69cra">
+    \t(1) Est puni d’un emprisonnement de vingt (20) à trente (30) ans et d’une amende de trente millions (30 000 000) à cinq cent millions (500.000.000) de francs CFA celui qui met au point, fabrique, stocke, acquiert, transfère ou conserve:\n\n
+    \t\t• Des agents microbiologiques ou autres agents biologiques, ainsi que des toxines quels qu’en soient l’origine et/ou le mode de production, le type et la quantité qui ne sont pas destinées à des fins prophylactiques, de protection ou à d’autres fins pacifiques;\n\n
+    \t\t• Des armes, de l’équipement ou des vecteurs destinés à l’emploi de tels agents ou toxines à des fins hostiles ou dans des conflits armés.
+    \t(2) En cas de récidive, la peine est l’emprisonnement à vie.\n
+  </string>
+  <string name="article70cra">
+    \t(1) Est puni d’un emprisonnement de dix (10) à trente (30) ans et d’une amende de vingt millions (20.000.000) à cinq cent millions (500.000.000) de francs CFA celui qui importe, fabrique, détient ou active des dispositifs de dispersion radiologique.\n\n
+    \t(2) En cas de récidive, la peine est lemprisonnement à vie.\n
+  </string>
+  <string name="article71cra">
+    \t(1) Est puni d’un emprisonnement de dix (10) à vingt (20) ans et d’une amende de vingt millions (20.000.000) à cinq cent millions (500.000.000) de francs CFA, celui qui:\n\n
+    \t\ta. Détient, utilise, transfère, cède, vend, altère, aliène ou disperse des matières nucléaires ou des sources radioactives, sans autorisation requise;\n\n
+    \t\tb. Vole ou recèle des matières nucléaires ou des sources radioactives; utilise des matières nucléaires et les sources radioactives à des fins autres que celles pour lesquelles il a obtenu l’autorisation;\n\n
+    \t\tc. Fait usage des sources radioactives ou des matières nucléaires à des fins criminelles ou terroristes, notamment dans le but de causer la mort ou des blessures à autrui au sens du Code Pénal, des dommages aux biens ou à l’environnement;\n\n
+    \t\td. Menace d’utiliser des matières nucléaires pour tuer, blesser autrui ou causer des dommages aux biens;\n\n
+    \t\te. Tente de commettre l’une des infractions visées aux alinéas 1.a, b et c ci-dessus;\n\n
+    \t\tf. Transporte, envoie ou déplace ces matières vers ou depuis le territoire national sans l’autorisation requise.\n\n
+    \t(2) Lorsque, dans le cas visé à l’alinéa 1 ci-dessus, le but est de contraindre une personne physique ou morale, une Organisation Internationale ou un Etat à faire ou à s’abstenir de faire un acte, la peine est l’emprisonnement à vie.\n\n
+    \t(3) La peine capitale est prononcée au cas où les actes visés à l’alinéa 1.a et 1.d ci-dessus entrainent la mort d’autrui.\n
+  </string>
+  <string name="article72cra">
+    Est puni de l’emprisonnement à vie celui qui détruit, aux fins de sabotage, tout ou partie d’une source radioactive ou d’une installation nucléaire, ou empêche son fonctionnement.\n
+  </string>
+  <string name="article73cra">
+     L’action publique relative aux infractions visées au présent chapitre, ainsi que les peines prononcées à cet effet sont imprescriptibles.\n
+  </string>
+  <string name="article74cra">
+    \t(1) En cas d’infractions liées aux armes de 3ème catégorie, l’admission des circonstances atténuantes ne peut réduire la peine de mort à une peine d’emprisonnement inférieure à quinze (15) ans.\n\n
+    \t(2) En cas d’infractions liées aux armes de 3ème catégorie, l’admission des circonstances atténuantes ne peut réduire l’emprisonnement à vie à un emprisonnement inférieur à dix (10) ans.\n\n
+    \t(3) Dans les autres cas de condamnation à temps, l’admission des circonstances atténuantes ne peut réduire l’emprisonnement à une peine inférieure à cinq (5) ans.\n
+  </string>
+  <string name="article75cra">
+    Toute personne qui a tenté de commettre l’une des infractions prévues au présent chapitre est exempte de condamnation lorsque, ayant averti l’autorité administrative où judiciaire, elle a permis d’éviter la réalisation de l’infraction et d’identifier, le cas échéant, les autres coupables.\n
+  </string>
+  <string name="article76cra">
+    \t(1) La peine privative de liberté encourue par l’auteur ou le complice de l’une des infractions prévues au présent chapitre, est réduite de moitié lorsque, ayant averti l’autorité administrative ou judiciaire, il a permis de faire cesser les agissements incriminés ou d’éviter que l’infraction n’entraîne mort d’homme ou infirmité permanente et d’identifier, le cas échéant, les autres coupables.\n
+    \t(2) Lorsque la peine encourue est l’emprisonnement à vie, celle-ci est ramenée à vingt (20) ans.\n
+  </string>
+  <string name="article77cra">
+    En cas de condamnation, le tribunal ordonne le retrait de l’autorisation de fabrication, d’introduction sur le territoire national, de vente, de transport, d’entreposage, d’acquisition, de détention ou de permis de port d’arme.\n
+  </string>
+  <string name="article78cra">
+    \t(1) En cas de condamnation à l’une des peines principales prévues par la présente loi, le tribunal prononce l’une ou plusieurs des peines accessoires ou mesures ci-après:\n\n
+    \t\ta) La confiscation ou la destruction de l’outil qui a servi ou était destiné à commettre l’infraction, ou du produit de celle-ci;\n\n
+    \t\tb) La publication de la décision prononcée;\n\n
+    \t\tc) L\'interdiction pendant une période de un (1) à deux (2) ans ou à titre définitif, d’exercer une fonction publique ou d’exercer l’activité professionnelle ou sociale, dans l’exercice ou à l’occasion de laquelle l’infraction a été commise;\n\n
+    \t\td) L’exclusion temporaire de toute commande publique pour une durée n’excédant pas cinq (5) ans ou l’exclusion définitive;\n\n
+    \t\te) L’interdiction de séjour sur le territoire camerounais pendant une période de trois (3) à cinq (5) ans ou à titre définitif, lorsqu’il s’agit d’étrangers.\n\n
+    \t(2) Les armes et munitions dont la confiscation a été ordonnée par le tribunal sont reversées au Ministère en charge de la Défense.\n
+  </string>
+  <string name="article79cra">
+    Outre les sanctions visées à l’article 78 ci-dessus, les établissements ou entreprises déclarés pénalement responsables des infractions prévues et réprimées par la présente loi, encourent la fermeture, soit pour une durée temporaire n’excédant pas cinq (5) ans, soit à titre définitif.\n
+  </string>
+  <string name="article80cra">
+    La non dénonciation de l’une des infractions visées à la présente loi est passible d’un emprisonnement de un (01) à cinq (05) ans et d’une amende de deux millions (2 000 000) à dix millions (10 000 000) de francs CFA.\n
+  </string>
+  <string name="article81cra">
+    Les autorisations et déclarations relatives aux produits chimiques toxiques et aux installations de fabrication des produits chimiques aux fins non interdites, sont exigibles un (01) an à compter de la mise en place de l’organe national compétent.\n
+  </string>
+  <string name="article82cra">
+    \t(1) Chaque administration concernée tient un fichier numérique actualisé des armes et munitions et, le cas échéant, des autorisations en vigueur relevant de sa compétence.\n\n
+    \t(2) Une copie de chaque fichier numérique visé à l’alinéa 1 ci-dessus, est adressée au Ministre chargé de la défense et à la Présidence de la République au plus tard le 31 janvier de l’année suivante.\n\n
+    (3) Un fichier numérique central de toutes les armes et munitions, et le cas échéant, des autorisations en vigueur, est tenu par la Présidence de la République.\n\
+  </string>
+  <string name="article83cra">
+    La présente loi, qui abroge toutes les dispositions antérieures contraires, sera enregistrée et publiée selon la procédure d’urgence, puis insérée au Journal Officiel en français et en Anglais.\n
+  </string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="but">
+    L\'application a pour but de faire de chaque Camerounais un citoyen.
+    Cela passe tout d\'abord par la maîtrise des règles et des lois qui régissent la société
+    Camerounaise ainsi que les traités et accords ratifiés par le Cameroun et qui engage l\'Etat a
+    des responsabilitées internationnales.\n\n
+    \"<i>Nul n\'est censé ignoré la loi et l\'ignorance de la loi n\'est pas une excuse</i>\"\n\n
+    L\'objectif est aussi de faire cainnaitre aux Camerounais
+    petits et grands la glorieuse histoire de notre pays ainsi ses héros.\n\n
+  </string>
+  <string name="pour_qui">
+    L\'application est conçu pour un usage grand publique! Tout le monde peu l\'utiliser. Les élèves,
+    les étudiants, les enseignants, les professionels du droit et tout le reste de la population.
+    Tout le monde a le droit et le devoir de connaître l\'histoire de son pays.\n\n Cette application
+    est conçu comme un utilitaire c\'est a dire que chaque Camerounais devrais l\'avoir dans son téléphone
+    partout et a tout momen.\n\n
+  </string>
+  <string name="payer">
+    Nous avons pris beaucoup de temps pour concevoir cette application et afin de vous offrir une
+    expérience d\'utilisation agréable nous n\'incluons aucune publicité; C\'est pour cela que nous
+    imposont un abonement payant. Cette argent nous permettra de continuer a fournir plus de contenu
+    afin que l\'application soit toujours a jour et le plus complet possible.\n\n
+  </string>
+  <string name="payer2">
+   Vous devez payer un abonnement de 500frs pour un usage a vie.\n\n
+  </string>
+  <string name="modifier" tools:ignore="Typos">
+    Le seul moyen de modifier l\'application ou ses données est d\'intégrer l\'entreprise LOGRAM
+    afin d\'y travailler a plein temps ou a temps partiel ou encore si vous souhaiter apporter
+    une modification sans pour autant être un partenaire de l\'entreprise mère vous pouvez simplement
+    nous contacter et nous faire part de votre suggestion, nous nous ferons un plaisir de l\'étudier et de
+    l\'appliquer si necessaire.\n\n
+  </string>
+  <string name="vrai">
+    Les information contenu dans l\'application sont disponible sur de nombreux site internet ainsi
+    que sur wikipedia et dans de nombreux livres et archives! Nous n\'avons aucun interêt a porter
+    des informations fausse qui ne servira d\'ailleur qu\'a nous discrediter. Nos données sont
+    minutieusement traité avant d\'être intégré dans l\'application. Ce pendant, aucune œuvre
+    humaine n\'étant parfaite, nous vous prions de nous excuser si une information porté ici
+    s\'avère incorecte et nous vous prions de nous le faire savoir afin que nous puissions le corriger!\n\n
+  </string>
+  <string name="participer">Vous devez nous contacter pour en savoir plus.\n\n</string>
+  <string name="rembourssement" tools:ignore="Typos">
+    Nous sommes désolé mais nous n\'éffectuons aucun rembourssement. Ce pendant, nous nous éfforçons
+    de mettre a votre servive le meilleur produit possible afin d\'eviter tout désagrément!\n\n
+  </string>
+</resources>

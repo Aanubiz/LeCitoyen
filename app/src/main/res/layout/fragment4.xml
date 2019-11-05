@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:fancy="http://schemas.android.com/apk/res-auto"
+  android:gravity="center"
+  android:background="#e32"
+  tools:context=".fragments.Fragment4">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center">
+    <TextView
+      android:id="@+id/t"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:textAlignment="center"
+      android:textColor="#FFF"
+      android:textStyle="bold"
+      android:fontFamily="@font/basic"
+      android:text="3. Merci de votre patience. N'hesitez surtout pas a nous faire des suggestions au besoin."
+      android:textSize="20sp"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+      android:id="@+id/frag4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingBottom="10dp"
+      android:paddingLeft="40dp"
+      android:paddingRight="40dp"
+      android:paddingTop="10dp"
+      fancy:fb_borderColor="#FFFFFF"
+      fancy:fb_borderWidth="1dp"
+      fancy:fb_defaultColor="@color/material_amber_A700"
+      fancy:fb_focusColor="@color/material_amber_A700"
+      fancy:fb_iconPosition="left"
+      fancy:fb_radius="20dp"
+      fancy:fb_text="COMMENCER"
+      fancy:fb_textColor="#FFFFFF"
+      android:layout_marginTop="100dp"
+      android:layout_gravity="right"/>
+  </LinearLayout>
+</RelativeLayout>
