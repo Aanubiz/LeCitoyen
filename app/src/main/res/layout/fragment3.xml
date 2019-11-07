@@ -22,7 +22,7 @@
       android:textStyle="bold"
       android:textColor="#FFF"
       android:fontFamily="@font/basic"
-      android:text="2. Lors de l'inscription, vous devez fournir un identifiant unique. Veuillez a ne pas le perdre car il vous sera redemandé lorsque vous effectuerez le payement."
+      android:text=" Alors pour nous encourager vous pouvez nous acheter un café. Bien-sûr le don est volontaire et facultatif."
       android:textSize="20sp"/>
 
     <mehdi.sakout.fancybuttons.FancyButton

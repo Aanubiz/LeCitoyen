@@ -7,15 +7,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
-import android.support.v7.widget.Toolbar;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.MenuItemCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,9 +20,17 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.adapter.AdapterCodeDeJusticeMilitaire.ClickListener;
 import cm.logram.lecitoyen.adapter.AdapterCodeDeProcedurePenale;
@@ -44,6 +49,7 @@ public class CodeDeProcedurePenale extends AppCompatActivity implements ClickLis
   private String searchString = "";
   private SearchView searchView;
   private TextView textView;
+  private AdView mAdView;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +87,11 @@ public class CodeDeProcedurePenale extends AppCompatActivity implements ClickLis
       }
     });
     prepareWordsList();
+
+    MobileAds.initialize(this, getString(R.string.admob_banner_id));
+    mAdView = findViewById(R.id.adView);
+    AdRequest adRequest = new AdRequest.Builder().build();
+    mAdView.loadAd(adRequest);
   }
 
   @Override
@@ -2340,7 +2351,7 @@ public class CodeDeProcedurePenale extends AppCompatActivity implements ClickLis
     SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
     searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 
-    TextView searchText = searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text);
+    TextView searchText = searchView.findViewById(R.id.search_src_text);
 
     searchText.setTextColor(Color.parseColor("#FFFFFF"));
     searchText.setHintTextColor(Color.parseColor("#FFFFFF"));

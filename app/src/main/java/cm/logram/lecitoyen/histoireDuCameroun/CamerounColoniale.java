@@ -2,13 +2,16 @@ package cm.logram.lecitoyen.histoireDuCameroun;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
 import com.github.aakira.expandablelayout.ExpandableLayout;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.MainActivity;
 import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.reglesDeDroits.RegleDeDroit;
@@ -16,6 +19,7 @@ import cm.logram.lecitoyen.reglesDeDroits.RegleDeDroit;
 public class CamerounColoniale extends AppCompatActivity {
 
   private ExpandableLayout expandableLayout1;
+  private AdView mAdView;
   private TextView
       textView,
       textView2,
@@ -59,6 +63,11 @@ public class CamerounColoniale extends AppCompatActivity {
     textView8.setText(Html.fromHtml(cc8));
     String cc9 = getResources().getString(R.string.cc9);
     textView9.setText(Html.fromHtml(cc9));
+
+    MobileAds.initialize(this, getString(R.string.admob_banner_id));
+    mAdView = findViewById(R.id.adView);
+    AdRequest adRequest = new AdRequest.Builder().build();
+    mAdView.loadAd(adRequest);
   }
   public void expandableButton1(View view) {
     expandableLayout1 = findViewById(R.id.expandableLayout1);

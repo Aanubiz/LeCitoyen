@@ -5,11 +5,11 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   tools:context=".les_personnages.AhidjoAhmadou">
-  <android.support.design.widget.AppBarLayout
+  <com.google.android.material.appbar.AppBarLayout
     android:id="@+id/appbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
       android:layout_width="match_parent"
       android:layout_height="wrap_content">
       <TextView
@@ -20,8 +20,8 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:fontFamily="@font/josefin1"/>
-    </android.support.v7.widget.Toolbar>
-  </android.support.design.widget.AppBarLayout>
+    </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.AppBarLayout>
   <ScrollView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -174,4 +174,13 @@
         android:fontFamily="@font/basic"/>
     </RelativeLayout>
   </ScrollView>
+  <!-- set Banner ad position in UI layout design -->
+  <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/admob_banner_id" />
 </RelativeLayout>

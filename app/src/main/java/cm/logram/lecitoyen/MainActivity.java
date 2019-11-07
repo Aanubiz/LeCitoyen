@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.smarteist.autoimageslider.IndicatorAnimations;
@@ -12,6 +11,7 @@ import com.smarteist.autoimageslider.IndicatorView.draw.controller.DrawControlle
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.a_propos.APropos;
 import cm.logram.lecitoyen.adapter.MainAdapter;
 import cm.logram.lecitoyen.boommenu.BoomButtons.OnBMClickListener;

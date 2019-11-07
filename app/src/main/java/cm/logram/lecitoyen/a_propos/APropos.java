@@ -3,20 +3,20 @@ package cm.logram.lecitoyen.a_propos;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.chootdev.recycleclick.RecycleClick;
+import cm.logram.lecitoyen.recyclerClick.RecycleClick;
 import com.kobakei.ratethisapp.RateThisApp;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import cm.logram.lecitoyen.MainActivity;
 import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.adapter.AdapterAPropos;

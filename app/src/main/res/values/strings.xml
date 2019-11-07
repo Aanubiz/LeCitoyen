@@ -1,5 +1,9 @@
 <resources>
   <string name="app_name">Le Citoyen</string>
+
+  <string name="admob_app_id">ca-app-pub-7365454148034535~7925971144</string>
+  <string name="admob_banner_id">ca-app-pub-7365454148034535/2413628317</string>
+
   <string name="title_activity_code_de_procedure_penale">Code De Procedure Penale</string>
   <string name="title_activity_code_penale">CodePenale</string>
 

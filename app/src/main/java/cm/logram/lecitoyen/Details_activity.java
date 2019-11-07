@@ -2,9 +2,10 @@ package cm.logram.lecitoyen;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Details_activity extends AppCompatActivity {
 

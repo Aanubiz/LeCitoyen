@@ -1,8 +1,8 @@
 package cm.logram.lecitoyen.patrimoines_culturel;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.R;
 
 public class PatrimoineCulturel extends AppCompatActivity {

@@ -2,11 +2,11 @@ package cm.logram.lecitoyen.a_propos;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.R;
 
 public class Faq extends AppCompatActivity {

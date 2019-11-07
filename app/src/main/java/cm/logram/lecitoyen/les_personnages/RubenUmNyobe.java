@@ -2,13 +2,16 @@ package cm.logram.lecitoyen.les_personnages;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.MainActivity;
 import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.histoireDuCameroun.HistoireDuCameroun;
@@ -17,6 +20,8 @@ public class RubenUmNyobe extends AppCompatActivity {
 
   private ExpandableRelativeLayout expandableLayout1;
   private TextView textView, textView2, textView3, textView4,textView5;
+  private AdView mAdView;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -38,6 +43,14 @@ public class RubenUmNyobe extends AppCompatActivity {
     textView4.setText(Html.fromHtml(desc_um3));
     String desc_um1 = getResources().getString(R.string.desc_um1);
     textView5.setText(Html.fromHtml(desc_um1));
+
+    // Initialize the Mobile Ads SDK
+    MobileAds.initialize(this, getString(R.string.admob_banner_id));
+    // Find Banner ad
+    mAdView = findViewById(R.id.adView);
+    AdRequest adRequest = new AdRequest.Builder().build();
+    // Display Banner ad
+    mAdView.loadAd(adRequest);
   }
   public void expandableButton1(View view) {
     expandableLayout1 = findViewById(R.id.expandableLayout1);

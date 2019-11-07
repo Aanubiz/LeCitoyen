@@ -6,13 +6,13 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
 import java.util.ArrayList;
 
+import androidx.appcompat.app.AppCompatActivity;
 import cm.logram.lecitoyen.adapter.GridViewAdapter;
 import cm.logram.lecitoyen.adapter.ImageItem;
 

@@ -6,10 +6,9 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.speech.tts.TextToSpeech;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.res.ResourcesCompat;
 import android.text.Html;
 import android.text.Spannable;
 import android.text.style.BackgroundColorSpan;
@@ -21,11 +20,13 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.crowdfire.cfalertdialog.CFAlertDialog;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import androidx.recyclerview.widget.RecyclerView;
 import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.anim.AnimationUtils;
 import cm.logram.lecitoyen.model.Data;

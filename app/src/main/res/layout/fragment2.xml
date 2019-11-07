@@ -23,7 +23,7 @@
       android:textColor="#FFF"
       android:textStyle="bold"
       android:fontFamily="@font/basic"
-      android:text="1. Vous avez 7 jours d'utilisation gratuite, ensuite, vous devez payer pour continuer a profiter des fonctionnalités de l'application."
+      android:text=" Cette application est gratuite et le restera a vie Mais vous devez comprendre que nous y consacrons beacoup de temps et d'energie."
       android:textSize="20sp"/>
 
     <mehdi.sakout.fancybuttons.FancyButton

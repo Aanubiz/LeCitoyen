@@ -4,23 +4,23 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.chootdev.recycleclick.RecycleClick;
+import cm.logram.lecitoyen.recyclerClick.RecycleClick;
 import com.github.ivbaranov.mli.MaterialLetterIcon;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import cm.logram.lecitoyen.MainActivity;
 import cm.logram.lecitoyen.R;
 
