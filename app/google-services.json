@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "500554805091",
+    "firebase_url": "https://le-citoyen.firebaseio.com",
+    "project_id": "le-citoyen",
+    "storage_bucket": "le-citoyen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500554805091:android:b31c3b479b353665b1ed56",
+        "android_client_info": {
+          "package_name": "cm.logram.lecitoyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500554805091-1isg0flm37ku24ti7fnta2ngkcd0fk97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3STmW6TYY0A85KXgLjUG3xiaqO8QsvH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500554805091-1isg0flm37ku24ti7fnta2ngkcd0fk97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

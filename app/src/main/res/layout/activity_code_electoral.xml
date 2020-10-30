@@ -25,7 +25,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:textColor="#FFF"
-          android:text="CODE DE PROCEDURE PENALE"
+          android:text="CODE ELECTORAL"
           android:fontFamily="@font/blackhansans"/>
       </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>

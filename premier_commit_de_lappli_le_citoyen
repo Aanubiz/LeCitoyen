@@ -1,0 +1,33 @@
+
+# Veuillez saisir le message de validation pour vos modifications. Les lignes
+# commençant par '#' seront ignorées, et un message vide abandonne la validation.
+#
+# Sur la branche master
+#
+# Validation initiale
+#
+# Modifications qui seront validées :
+	nouveau fichier : .gradle/6.1.1/executionHistory/executionHistory.lock
+	nouveau fichier : .gradle/6.1.1/fileChanges/last-build.bin
+	nouveau fichier : .gradle/6.1.1/fileHashes/fileHashes.lock
+	nouveau fichier : .gradle/6.1.1/gc.properties
+	nouveau fichier : .gradle/buildOutputCleanup/buildOutputCleanup.lock
+	nouveau fichier : .gradle/buildOutputCleanup/cache.properties
+	nouveau fichier : .gradle/checksums/checksums.lock
+	nouveau fichier : .gradle/vcs-1/gc.properties
+	nouveau fichier : .idea/.gitignore
+	nouveau fichier : .idea/caches/build_file_checksums.ser
+	nouveau fichier : .idea/codeStyles/Project.xml
+	nouveau fichier : .idea/compiler.xml
+	nouveau fichier : .idea/gradle.xml
+	nouveau fichier : .idea/misc.xml
+	nouveau fichier : .idea/modules.xml
+	nouveau fichier : .idea/modules/LeCitoyen.iml
+	nouveau fichier : .idea/vcs.xml
+	nouveau fichier : build.gradle
+	nouveau fichier : gradle/wrapper/gradle-wrapper.jar
+	nouveau fichier : gradle/wrapper/gradle-wrapper.properties
+	nouveau fichier : gradlew
+	nouveau fichier : gradlew.bat
+	nouveau fichier : local.properties
+

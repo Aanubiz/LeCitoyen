@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.MenuItemCompat;
+
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -92,6 +94,15 @@ public class CodeElectoral extends AppCompatActivity implements ClickListener,Vi
     mAdView = findViewById(R.id.adView);
     AdRequest adRequest = new AdRequest.Builder().build();
     mAdView.loadAd(adRequest);
+
+    Toast toast = Toast.makeText(CodeElectoral.this, "Vous pouvez cliqué sur l'article pour ajouter aux favoris ou écouté la version audio!", Toast.LENGTH_LONG);
+    View view = toast.getView();
+    view.setBackgroundColor(Color.parseColor("#880e4f"));
+    TextView text = view.findViewById(android.R.id.message);
+    text.setTextColor(Color.WHITE);
+    text.setGravity(Gravity.CENTER_HORIZONTAL);
+    toast.setGravity(Gravity.CENTER, 0, 0);
+    toast.show();
   }
 
   @Override

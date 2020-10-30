@@ -1,8 +1,13 @@
 <resources>
   <string name="app_name">Le Citoyen</string>
 
+
+  <string name="facebook_app_id">2442695259323828</string>
+  <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
   <string name="admob_app_id">ca-app-pub-7365454148034535~7925971144</string>
   <string name="admob_banner_id">ca-app-pub-7365454148034535/2413628317</string>
+  <string name="ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
 
   <string name="title_activity_code_de_procedure_penale">Code De Procedure Penale</string>
   <string name="title_activity_code_penale">CodePenale</string>

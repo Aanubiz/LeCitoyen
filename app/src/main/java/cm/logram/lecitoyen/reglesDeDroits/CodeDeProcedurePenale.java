@@ -13,13 +13,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.MenuItemCompat;
+
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.androidadvance.topsnackbar.TSnackbar;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -50,6 +54,8 @@ public class CodeDeProcedurePenale extends AppCompatActivity implements ClickLis
   private SearchView searchView;
   private TextView textView;
   private AdView mAdView;
+  private RelativeLayout relative_layout_main;
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +98,16 @@ public class CodeDeProcedurePenale extends AppCompatActivity implements ClickLis
     mAdView = findViewById(R.id.adView);
     AdRequest adRequest = new AdRequest.Builder().build();
     mAdView.loadAd(adRequest);
+
+    Toast toast = Toast.makeText(CodeDeProcedurePenale.this, "Vous pouvez cliqué sur l'article pour ajouter aux favoris ou écouté la version audio!", Toast.LENGTH_LONG);
+    View view = toast.getView();
+    view.setBackgroundColor(Color.parseColor("#880e4f"));
+    TextView text = view.findViewById(android.R.id.message);
+    text.setTextColor(Color.WHITE);
+    text.setGravity(Gravity.CENTER_HORIZONTAL);
+    toast.setGravity(Gravity.CENTER, 0, 0);
+    toast.show();
+
   }
 
   @Override

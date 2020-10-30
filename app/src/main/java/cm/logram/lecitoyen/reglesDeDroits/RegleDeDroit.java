@@ -1,151 +1,235 @@
 package cm.logram.lecitoyen.reglesDeDroits;
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.TypedValue;
-import android.view.LayoutInflater;
+import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
-import cm.logram.lecitoyen.recyclerClick.RecycleClick;
-import com.github.ivbaranov.mli.MaterialLetterIcon;
+import cm.logram.lecitoyen.adapter.AdapterRegleDeDroit;
+import cm.logram.lecitoyen.items.MenuRegle;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.LoadAdError;
 
-import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import cm.logram.lecitoyen.MainActivity;
 import cm.logram.lecitoyen.R;
+import cm.logram.lecitoyen.recyclerClick.RecycleClick;
 
 public class RegleDeDroit extends AppCompatActivity {
-  private static final String[] codes = {
-      "Lois portant Code de Procédure Pénale",
-      "Lois portant Code Pénale",
-      "Lois portant Code Electoral",
-      "Lois portant Code De Juststice Militaire",
-      "Lois portant Regime Général des Armes et Munitions",
-      "Lois portant Code du Travail"
-  };
+
+  public static final int ITEMS_PER_AD = 5;
+  private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/4177191030";
   private static final int CONTACTS = 0;
   private static final Random RANDOM = new Random();
+  private List<Object> recyclerViewItems = new ArrayList<>();
 
-  private RecyclerView recyclerView;
-
-  @Override protected void onCreate(Bundle savedInstanceState) {
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_regle_de_droit);
 
-    recyclerView = findViewById(R.id.recycler);
-    setupRecyclerView();
+    RecyclerView recyclerView = findViewById(R.id.recycler);
 
-    RecycleClick.addTo(recyclerView).setOnItemClickListener(new RecycleClick.OnItemClickListener() {
+    recyclerView.setHasFixedSize(true);
+
+    RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+    recyclerView.setLayoutManager(layoutManager);
+
+    addMenuItemsFromJson();
+    addBannerAds();
+    loadBannerAds();
+
+    RecyclerView.Adapter<RecyclerView.ViewHolder> adapter = new AdapterRegleDeDroit(this, recyclerViewItems);
+    recyclerView.setAdapter(adapter);
+
+    RecycleClick . addTo (recyclerView) . setOnItemClickListener ( new  RecycleClick. OnItemClickListener () {
       @Override
-      public void onItemClicked(RecyclerView recyclerView, int position, View v) {
-        if (position==0){
-          startActivity(new Intent(RegleDeDroit.this, CodeDeProcedurePenale.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
-        }else if (position==1){
+      public  void  onItemClicked ( RecyclerView  recyclerView , int  position , View v ) {
+        if (position == 1) {
           startActivity(new Intent(RegleDeDroit.this, CodePenale.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
         }else if (position==2){
-          startActivity(new Intent(RegleDeDroit.this, CodeElectoral.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
+          startActivity(new Intent(RegleDeDroit.this, CodeDeProcedurePenale.class));
         }else if (position==3){
-          startActivity(new Intent(RegleDeDroit.this, CodeDeJusticeMilitaire.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
-        }else if (position==4){
-          startActivity(new Intent(RegleDeDroit.this, CodeRelatifAuxArmes.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
-        }else if (position==5){
           startActivity(new Intent(RegleDeDroit.this, CodeDuTravail.class));
-          overridePendingTransition(R.anim.anim, R.anim.anim2);
+        }else if (position==4){
+          startActivity(new Intent(RegleDeDroit.this, CodeElectoral.class));
+        }else if (position==6){
+          startActivity(new Intent(RegleDeDroit.this, CodeDeJusticeMilitaire.class));
+        }else if (position==7){
+          startActivity(new Intent(RegleDeDroit.this, CodeRelatifAuxArmes.class));
         }
       }
     });
   }
 
-  private void setupRecyclerView() {
-    recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
-    setContactsAdapter(codes);
+  @Override
+  protected void onResume() {
+    for (Object item : recyclerViewItems) {
+      if (item instanceof AdView) {
+        AdView adView = (AdView) item;
+        adView.resume();
+      }
+    }
+    super.onResume();
   }
 
-  private void setContactsAdapter(String[] array) {
-    recyclerView.setAdapter(
-        new SimpleStringRecyclerViewAdapter(this, Arrays.asList(array), CONTACTS));
+  @Override
+  protected void onPause() {
+    for (Object item : recyclerViewItems) {
+      if (item instanceof AdView) {
+        AdView adView = (AdView) item;
+        adView.pause();
+      }
+    }
+    super.onPause();
   }
 
-  public class SimpleStringRecyclerViewAdapter
-      extends RecyclerView.Adapter<SimpleStringRecyclerViewAdapter.ViewHolder> {
-
-    private final TypedValue mTypedValue = new TypedValue();
-    private int mBackground;
-    private List<String> mValues;
-    private int[] mMaterialColors;
-    private int mType;
-
-    public class ViewHolder extends RecyclerView.ViewHolder {
-      public String mBoundString;
-
-      public final View mView;
-      public final MaterialLetterIcon mIcon;
-      public final TextView mTextView;
-
-      public ViewHolder(View view) {
-        super(view);
-        mView = view;
-        mIcon = view.findViewById(R.id.icon);
-        mTextView = view.findViewById(R.id.text1);
-      }
-
-      @NonNull
-      @Override public String toString() {
-        return super.toString() + " '" + mTextView.getText();
+  @Override
+  protected void onDestroy() {
+    for (Object item : recyclerViewItems) {
+      if (item instanceof AdView) {
+        AdView adView = (AdView) item;
+        adView.destroy();
       }
     }
+    super.onDestroy();
+  }
 
-    public SimpleStringRecyclerViewAdapter(Context context, List<String> items, int type) {
-      context.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
-      mMaterialColors = context.getResources().getIntArray(R.array.colors);
-      mBackground = mTypedValue.resourceId;
-      mValues = items;
-      mType = type;
+  /**
+   * Adds banner ads to the items list.
+   */
+  private void addBannerAds() {
+    // Loop through the items array and place a new banner ad in every ith position in
+    // the items List.
+    for (int i = 0; i <= recyclerViewItems.size(); i += ITEMS_PER_AD) {
+      final AdView adView = new AdView(RegleDeDroit.this);
+      adView.setAdSize(AdSize.BANNER);
+      adView.setAdUnitId(AD_UNIT_ID);
+      recyclerViewItems.add(i, adView);
+    }
+  }
+
+  /**
+   * Sets up and loads the banner ads.
+   */
+  private void loadBannerAds() {
+    // Load the first banner ad in the items list (subsequent ads will be loaded automatically
+    // in sequence).
+    loadBannerAd(0);
+  }
+
+  /**
+   * Loads the banner ads in the items list.
+   */
+  private void loadBannerAd(final int index) {
+
+    if (index >= recyclerViewItems.size()) {
+      return;
     }
 
-    @NonNull
-    @Override public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-      View view =
-          LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, parent, false);
-      view.setBackgroundResource(mBackground);
-      return new ViewHolder(view);
+    Object item = recyclerViewItems.get(index);
+    if (!(item instanceof AdView)) {
+      throw new ClassCastException("Expected item at index " + index + " to be a banner ad"
+              + " ad.");
     }
 
-    @Override public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
-      switch (mType) {
-        case CONTACTS:
-          holder.mIcon.setInitials(true);
-          holder.mIcon.setShapeType(MaterialLetterIcon.Shape.ROUND_RECT);
-          holder.mIcon.setLetterSize(30);
-          holder.mIcon.setInitialsNumber(2);
-          Typeface face = Typeface.createFromAsset(getAssets(), "fonts/gugi.ttf");
-          holder.mIcon.setLetterTypeface(face);
-          break;
+    final AdView adView = (AdView) item;
+
+    // Set an AdListener on the AdView to wait for the previous banner ad
+    // to finish loading before loading the next ad in the items list.
+    adView.setAdListener(
+            new AdListener() {
+              @Override
+              public void onAdLoaded() {
+                super.onAdLoaded();
+                // The previous banner ad loaded successfully, call this method again to
+                // load the next ad in the items list.
+                loadBannerAd(index + ITEMS_PER_AD);
+              }
+
+              @Override
+              public void onAdFailedToLoad(LoadAdError loadAdError) {
+                // The previous banner ad failed to load. Call this method again to load
+                // the next ad in the items list.
+                String error =
+                        String.format(
+                                "domain: %s, code: %d, message: %s",
+                                loadAdError.getDomain(), loadAdError.getCode(), loadAdError.getMessage());
+                Log.e(
+                        "MainActivity",
+                        "The previous banner ad failed to load with error: "
+                                + error
+                                + ". Attempting to"
+                                + " load the next banner ad in the items list.");
+                loadBannerAd(index + ITEMS_PER_AD);
+              }
+            });
+
+    // Load the banner ad.
+    adView.loadAd(new AdRequest.Builder().build());
+  }
+
+  /**
+   * Adds {@link MenuRegle}'s from a JSON file.
+   */
+  private void addMenuItemsFromJson() {
+    try {
+      String jsonDataString = readJsonDataFromFile();
+      JSONArray menuItemsJsonArray = new JSONArray(jsonDataString);
+
+      for (int i = 0; i < menuItemsJsonArray.length(); ++i) {
+
+        JSONObject menuItemObject = menuItemsJsonArray.getJSONObject(i);
+
+        String titre = menuItemObject.getString("name");
+        String image = menuItemObject.getString("photo");
+
+        MenuRegle menuItem = new MenuRegle(titre, image);
+        recyclerViewItems.add(menuItem);
       }
-      holder.mBoundString = mValues.get(position);
-      holder.mIcon.setShapeColor(mMaterialColors[RANDOM.nextInt(mMaterialColors.length)]);
-      holder.mTextView.setText(mValues.get(position));
-      holder.mIcon.setLetter(mValues.get(position));
+    } catch (IOException | JSONException exception) {
+      Log.e(MainActivity.class.getName(), "Unable to parse JSON file.", exception);
+    }
+  }
+
+  private String readJsonDataFromFile() throws IOException {
+
+    InputStream inputStream = null;
+    StringBuilder builder = new StringBuilder();
+
+    try {
+      String jsonDataString = null;
+      inputStream = getResources().openRawResource(R.raw.menu_items_json);
+      BufferedReader bufferedReader = new BufferedReader(
+              new InputStreamReader(inputStream, "UTF-8"));
+      while ((jsonDataString = bufferedReader.readLine()) != null) {
+        builder.append(jsonDataString);
+      }
+    } finally {
+      if (inputStream != null) {
+        inputStream.close();
+      }
     }
 
-    @Override public int getItemCount() {
-      return mValues.size();
-    }
+    return new String(builder);
   }
   public void onBackPressed() {
     startActivity(new Intent(RegleDeDroit.this, MainActivity.class));

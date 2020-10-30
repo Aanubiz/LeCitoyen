@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.MenuItemCompat;
+
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,8 +22,10 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -50,6 +54,7 @@ public class CodePenale extends AppCompatActivity implements ClickListener,View.
   private SearchView searchView;
   private TextView textView;
   private AdView mAdView;
+  private InterstitialAd interstitial;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +97,31 @@ public class CodePenale extends AppCompatActivity implements ClickListener,View.
     mAdView = findViewById(R.id.adView);
     AdRequest adRequest = new AdRequest.Builder().build();
     mAdView.loadAd(adRequest);
+
+    Toast toast = Toast.makeText(CodePenale.this, "Vous pouvez cliqué sur l'article pour ajouter aux favoris ou écouté la version audio!", Toast.LENGTH_LONG);
+    View view = toast.getView();
+    view.setBackgroundColor(Color.parseColor("#880e4f"));
+    TextView text = view.findViewById(android.R.id.message);
+    text.setTextColor(Color.WHITE);
+    text.setGravity(Gravity.CENTER_HORIZONTAL);
+    toast.setGravity(Gravity.CENTER, 0, 0);
+    toast.show();
+
+    // Annonce intertitielle
+    interstitial = new InterstitialAd(CodePenale.this);
+    interstitial.setAdUnitId(getString(R.string.ad_unit_id));
+
+    interstitial.loadAd(adRequest);
+    interstitial.setAdListener(new AdListener() {
+      public void onAdLoaded() {
+        displayInterstitial();
+      }
+    });
+  }
+  public void displayInterstitial() {
+    if (interstitial.isLoaded()) {
+      interstitial.show();
+    }
   }
 
   @Override

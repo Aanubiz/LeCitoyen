@@ -6,6 +6,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,10 +22,12 @@ import cm.logram.lecitoyen.R;
 import cm.logram.lecitoyen.adapter.AdapterCodeDeJusticeMilitaire.ClickListener;
 import cm.logram.lecitoyen.adapter.AdapterFavorisCodeDeProcedurePenale;
 import cm.logram.lecitoyen.model.Data;
+import cm.logram.lecitoyen.reglesDeDroits.CodePenale;
 import cm.logram.lecitoyen.sqlite.DBSQLiteHandlerCPP;
 
 public class FavorisCodeDeProcedurePenale extends AppCompatActivity implements ClickListener, AdapterFavorisCodeDeProcedurePenale.ClickListener {
 
+  private InterstitialAd interstitial;
 	Toolbar toolbar;
 	public List<Data> wordsListFavourite;
 	AdapterFavorisCodeDeProcedurePenale mRecyclerAdapter;
@@ -38,8 +44,10 @@ public class FavorisCodeDeProcedurePenale extends AppCompatActivity implements C
 		setContentView(R.layout.activity_favoris_code_de_procedure_penale);
 		
 		mSharedPreferences = getSharedPreferences("spWords", 0);
+    AdRequest adRequest = new AdRequest.Builder().build();
 
-		toolbar = findViewById(R.id.toolbar);
+
+    toolbar = findViewById(R.id.toolbar);
 		toolbar.setTitle("");
 		setSupportActionBar(toolbar);
 		textView = findViewById(R.id.texte_vide);
@@ -66,8 +74,25 @@ public class FavorisCodeDeProcedurePenale extends AppCompatActivity implements C
 				mRecyclerAdapter.notifyDataSetChanged ();
 				mRecyclerAdapter.setListener(this);
 			}
-		}		
+		}
+
+		// Annonce intertitielle
+		interstitial = new InterstitialAd(FavorisCodeDeProcedurePenale.this);
+		interstitial.setAdUnitId(getString(R.string.ad_unit_id));
+
+		interstitial.loadAd(adRequest);
+		interstitial.setAdListener(new AdListener() {
+			public void onAdLoaded() {
+				displayInterstitial();
+			}
+		});
 	}
+  public void displayInterstitial() {
+// If Ads are loaded, show Interstitial else show nothing.
+    if (interstitial.isLoaded()) {
+      interstitial.show();
+    }
+  }
 	
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
